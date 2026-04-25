@@ -1,0 +1,108 @@
+{
+  "12": [
+    {
+      "chapter": "Relations and Functions",
+      "topics": "Types of relations: Reflexive, Symmetric, Transitive and Equivalence relations. One to one and onto functions, Composite functions, Inverse of a function."
+    },
+    {
+      "chapter": "Inverse Trigonometric Functions",
+      "topics": "Definition, Range, Domain, Principal value branch. Graphs of inverse trigonometric functions. Elementary properties of inverse trigonometric functions."
+    },
+    {
+      "chapter": "Matrices & Determinants",
+      "topics": "Concept, notation, order, equality, types of matrices. Operation on matrices. Determinant of a square matrix (up to 3x3), properties, Adjoint and Inverse of a matrix. Solving linear equations using Matrix Method."
+    },
+    {
+      "chapter": "Calculus (Differential & Integral)",
+      "topics": "Continuity and Differentiability, Chain Rule, Derivatives of Inverse Trigo, Logarithmic Differentiation. Integration as inverse of differentiation, Integration by substitution, by parts and partial fractions. Definite Integrals and their properties."
+    },
+    {
+      "chapter": "Vectors & 3D Geometry",
+      "topics": "Vectors and scalars, magnitude and direction. Direction cosines and ratios. Dot product and Cross product. Direction cosines/ratios of a line joining two points. Cartesian and Vector equation of a line, Coplanar and Skew lines, Shortest distance. Equation of a plane."
+    },
+    {
+      "chapter": "Linear Programming & Probability",
+      "topics": "LPP: Introduction, related terminology such as constraints, objective function, optimization. Conditional Probability, Multiplication theorem, Independent events, Bayes' theorem, Random variable and its probability distribution."
+    }
+  ],
+  "11": [
+    {
+      "chapter": "Sets and Functions",
+      "topics": "Sets and their representations. Empty set, Finite & Infinite sets, Subsets, Power set, Universal set. Venn diagrams. Union and Intersection of sets. Difference of sets. Complement of a set."
+    },
+    {
+      "chapter": "Trigonometric Functions",
+      "topics": "Positive and negative angles. Measuring angles in radians and in degrees. Signs of trigonometric functions. Sum and difference identities. General solution of trigonometric equations."
+    },
+    {
+      "chapter": "Algebra (Complex Nos & Quadratic)",
+      "topics": "Need for complex numbers, square root of a negative number. Argand plane and polar representation. Linear Inequalities. Permutations and Combinations. Binomial Theorem. Sequence and Series (AP & GP)."
+    },
+    {
+      "chapter": "Coordinate Geometry",
+      "topics": "Straight Lines (Slope, Various forms of equations). Conic Sections: Sections of a cone: Circle, Ellipse, Parabola, Hyperbola. Introduction to Three-dimensional Geometry."
+    },
+    {
+      "chapter": "Statistics and Probability",
+      "topics": "Measures of Dispersion: Range, Mean deviation, variance and standard deviation of ungrouped/grouped data. Probability: Random experiments, outcomes, sample spaces. Axiomatic probability."
+    }
+  ],
+  "10": [
+    {
+      "chapter": "Number Systems & Algebra",
+      "topics": "Real Numbers: Fundamental Theorem of Arithmetic. Polynomials: Zeros of a polynomial. Pair of Linear Equations in Two Variables. Quadratic Equations: Standard form, Nature of roots. Arithmetic Progressions: nth term and sum of n terms."
+    },
+    {
+      "chapter": "Trigonometry",
+      "topics": "Introduction to Trigonometry: Ratios of acute angles. Trigonometric Identities: sin²A + cos²A = 1. Heights and Distances: Angle of elevation, Angle of depression."
+    },
+    {
+      "chapter": "Geometry",
+      "topics": "Triangles: Similarity of triangles, BPT. Circles: Tangents to a circle at point of contact. Area Related to Circles."
+    },
+    {
+      "chapter": "Mensuration & Statistics",
+      "topics": "Surface Areas and Volumes: Combinations of solids (Cylinder, Cone, Sphere). Statistics: Mean, Median and Mode of grouped data. Probability: Classical definition, simple problems."
+    }
+  ],
+  "9": [
+    {
+      "chapter": "Number Systems & Polynomials",
+      "topics": "Rational and Irrational numbers. Real numbers and their decimal expansions. Remainder Theorem, Factor Theorem. Algebraic Identities: (a+b+c)², (a+b)³, etc."
+    },
+    {
+      "chapter": "Coordinate Geometry & Linear Eq",
+      "topics": "Cartesian plane, coordinates of a point. Linear Equations in Two Variables: Graph of linear equations, solutions."
+    },
+    {
+      "chapter": "Geometry (Lines & Triangles)",
+      "topics": "Lines and Angles, Triangles (Congruence rules: SAS, ASA, SSS, RHS). Quadrilaterals: Properties of Parallelogram. Circles: Equal chords and their distances."
+    },
+    {
+      "chapter": "Mensuration",
+      "topics": "Heron's Formula: Area of a triangle. Surface Areas and Volumes: Cube, Cuboids, Spheres, Cones, Cylinders."
+    }
+  ],
+  "8": [
+    {
+      "chapter": "Rational Numbers & Linear Eq",
+      "topics": "Properties of Rational Numbers. Linear Equations in One Variable. Understanding Quadrilaterals: Polygons, Parallelograms, Rhombus, Square."
+    },
+    {
+      "chapter": "Data Handling & Squares",
+      "topics": "Organizing Data: Bar graphs, Pie charts. Squares and Square Roots. Cubes and Cube Roots."
+    },
+    {
+      "chapter": "Commercial Maths",
+      "topics": "Comparing Quantities: Percentage, Profit and Loss, Discount, Sales Tax. Compound Interest formula and applications."
+    },
+    {
+      "chapter": "Algebra & Mensuration",
+      "topics": "Algebraic Expressions and Identities. Mensuration: Area of Trapezium, General Quadrilateral. Surface Area and Volume of Cube and Cylinder."
+    },
+    {
+      "chapter": "Exponents & Powers",
+      "topics": "Powers with negative exponents. Laws of exponents. Direct and Inverse Proportions."
+    }
+  ]
+}
