@@ -157,41 +157,74 @@
             lucide.createIcons();
         }
 
-        // --- SOLVER ENGINE (Addition, Multiplication, Class 12 Algebra) ---
+    
+        // --- NEW UPDATED AI SOLVER ENGINE ---
         function smartSolve() {
-            const input = document.getElementById('m-input').value;
-            displaySolution(input);
+            let input = document.getElementById('m-input').value.toLowerCase();
+            const box = document.getElementById('ans-box');
+            box.classList.remove('hidden');
+
+            // AI NLP: English phrases ko symbols mein badalna
+            let query = input
+                .replace(/what is|find|calculate|solve|value of|the|result of|\?/g, "") 
+                .replace(/sum of|add/g, "+")
+                .replace(/difference of|subtract/g, "-")
+                .replace(/product of|multiplied by|times/g, "*")
+                .replace(/divided by/g, "/")
+                .replace(/square root of/g, "sqrt")
+                .replace(/factorial of/g, "!")
+                .replace(/derivative of|differentiation of|differentiate/g, "d") 
+                .replace(/integral of|integration of|integrate/g, "integral") 
+                .replace(/power|raised to /g, "^")
+                .trim();
+
+            try {
+                let res;
+                // 11th-12th Algebra/Calculus logic
+                if (query.includes("integral") || query.includes("d") || /[a-z]/.test(query)) {
+                    if(query.startsWith("integral")) {
+                        let expr = query.replace("integral", "").trim();
+                        res = Algebrite.run(`integral(${expr})`).toString();
+                    } else if(query.startsWith("d")) {
+                        let expr = query.replace("d", "").trim();
+                        res = Algebrite.run(`d(${expr})`).toString();
+                    } else {
+                        res = Algebrite.run(query).toString();
+                    }
+                } 
+                // Basic Math logic
+                else {
+                    res = math.evaluate(query);
+                }
+
+                box.innerHTML = `
+                    <div class="glass p-8 rounded-[2.5rem] border-l-8 border-sky-500 animate-pop shadow-2xl">
+                        <div class="flex items-center gap-2 mb-2">
+                            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                            <p class="text-[10px] text-slate-500 font-bold uppercase tracking-widest">AI Processed Solution</p>
+                        </div>
+                        <h2 class="text-3xl font-black text-white">${res}</h2>
+                        <div class="mt-4 pt-4 border-t border-white/5">
+                            <p class="text-[9px] text-sky-400 font-bold uppercase tracking-widest">Army Public School Maths-AI Engine</p>
+                        </div>
+                    </div>`;
+            } catch(e) {
+                box.innerHTML = `<div class="glass p-6 rounded-3xl text-red-400 font-bold mt-4 border-2 border-red-500/10 text-xs">AI Error: Please try numbers or simple equations.</div>`;
+            }
         }
 
+        // Updated OCR (Ab ye direct smartSolve ko call karega)
         async function ocr(e) {
             const box = document.getElementById('ans-box');
             box.classList.remove('hidden');
-            box.innerHTML = `<p class="text-center text-sky-400 animate-pulse font-bold">Scanning Problem...</p>`;
+            box.innerHTML = `<p class="text-center text-sky-400 animate-pulse font-bold text-xs uppercase tracking-widest">Scanning Image...</p>`;
             const worker = await Tesseract.createWorker('eng');
             const { data: { text } } = await worker.recognize(e.target.files[0]);
-            displaySolution(text);
+            document.getElementById('m-input').value = text.trim();
+            smartSolve(); // Yahan se naya brain trigger hoga
             await worker.terminate();
         }
 
-        function displaySolution(input) {
-            const box = document.getElementById('ans-box');
-            box.classList.remove('hidden');
-            try {
-                // Dual Engine: Math.js for 1+2, 5*10 | Algebrite for x+x, integration
-                let ans;
-                if (/^[0-9+\-*/().\s]+$/.test(input.trim())) {
-                    ans = math.evaluate(input);
-                } else {
-                    ans = Algebrite.run(input).toString();
-                }
-                box.innerHTML = `
-                    <div class="glass p-8 rounded-[2.5rem] border-l-8 border-green-500 animate-pop shadow-2xl">
-                        <p class="text-[10px] text-slate-500 font-bold uppercase mb-2">Solution Found</p>
-                        <h2 class="text-4xl font-black text-white tracking-tight">${ans}</h2>
-                    </div>
-                `;
-            } catch(e) { box.innerHTML = `<div class="glass p-6 rounded-3xl text-red-400 font-bold">Syntax Error. Check numbers/operators.</div>`; }
-        }
 
         // --- QUIZ & CONTENT LOGIC ---
         function loadQTopics() {
