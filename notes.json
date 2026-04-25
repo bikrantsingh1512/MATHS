@@ -1,0 +1,19 @@
+{
+  "12": [
+    {"title": "Calculus: Complete Guide", "content": "• DIFFERENTIATION: Measures the rate of change. Rules: Product Rule [u'v + uv'], Quotient Rule [(u'v - uv')/v^2].\n• INTEGRATION: The reverse process of differentiation. Fundamental theorem: ∫f(x)dx = F(x) + C.\n• APPLICATIONS: Finding area under curves, tangents, and normals. Important formulas: ∫1/x dx = log|x|, ∫e^x dx = e^x.\n• DIFFERENTIAL EQUATIONS: Solving equations with derivatives using variable separable or linear methods."},
+    {"title": "Vectors & 3D Geometry", "content": "• VECTORS: Magnitude |a| = √(x^2+y^2+z^2). Dot Product: a.b = |a||b|cosθ. Cross Product: a x b = |a||b|sinθ n̂.\n• 3D GEOMETRY: Distance formula, direction cosines (l, m, n). Equation of line: r = a + λb. Shortest distance between skew lines formula is vital for exams."}
+  ],
+  "11": [
+    {"title": "Trigonometry & Sets", "content": "• TRIGONOMETRY: Radians to Degrees conversion (π = 180°). Domain and Range of sin, cos, tan. Multiple angle formulas like sin2A = 2sinAcosA.\n• SETS: Union (A∪B), Intersection (A∩B), and Subsets (2^n). Venn diagrams help visualize relations between sets."},
+    {"title": "Conic Sections", "content": "• CIRCLE: (x-h)^2 + (y-k)^2 = r^2.\n• PARABOLA: y^2 = 4ax (Focus at a,0).\n• ELLIPSE: x^2/a^2 + y^2/b^2 = 1 (e < 1).\n• HYPERBOLA: x^2/a^2 - y^2/b^2 = 1 (e > 1)."}
+  ],
+  "10": [
+    {"title": "Algebra & Geometry", "content": "• QUADRATIC: ax^2 + bx + c = 0. Roots found via Quadratic Formula. Sum of roots = -b/a, Product = c/a.\n• AP: Arithmetic Progression. an = a + (n-1)d. Sum Sn = n/2[2a + (n-1)d].\n• TRIANGLES: Similarity criteria (AAA, SAS, SSS). Pythagoras Theorem: H^2 = P^2 + B^2."}
+  ],
+  "9": [
+    {"title": "Number System & Mensuration", "content": "• NUMBERS: Rational, Irrational, and Real numbers. Laws of exponents apply.\n• POLYNOMIALS: Remainder and Factor theorems. (a+b)^2 = a^2+2ab+b^2.\n• AREA: Heron's Formula √s(s-a)(s-b)(s-c). Surface area of spheres (4πr^2) and cones (πrl)."}
+  ],
+  "8": [
+    {"title": "Math Fundamentals", "content": "• RATIONAL NUMBERS: Closure, Commutative, and Associative properties.\n• ALGEBRA: Solving linear equations in one variable. Powers and Exponents: a^m * a^n = a^(m+n).\n• GEOMETRY: Properties of quadrilaterals (Parallelogram, Rhombus, Rectangle, Square)."}
+  ]
+}
