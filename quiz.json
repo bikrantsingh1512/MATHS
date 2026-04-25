@@ -1,0 +1,76 @@
+{
+  "12": {
+    "Calculus": [
+      {"q": "Derivative of sin(x)?", "a": "cos(x)", "o": ["sin(x)", "cos(x)", "-cos(x)", "tan(x)"]},
+      {"q": "Integral of 1/x?", "a": "log(x)", "o": ["x", "1", "log(x)", "e^x"]},
+      {"q": "d/dx of e^x?", "a": "e^x", "o": ["e^x", "xe^x", "0", "1"]},
+      {"q": "Value of ∫ sin(x) dx?", "a": "-cos(x) + C", "o": ["cos(x)", "-cos(x) + C", "sin(x)", "tan(x)"]},
+      {"q": "Order of (dy/dx)^2 + y = 0?", "a": "1", "o": ["1", "2", "0", "3"]},
+      {"q": "∫ sec^2(x) dx?", "a": "tan(x)", "o": ["sec(x)", "tan(x)", "cot(x)", "sin(x)"]},
+      {"q": "d/dx of log(x)?", "a": "1/x", "o": ["x", "log(x)", "1/x", "0"]},
+      {"q": "Derivative of constant is?", "a": "0", "o": ["1", "0", "constant", "x"]},
+      {"q": "∫ e^x dx?", "a": "e^x + C", "o": ["e^x", "e^x + C", "xe^x", "log x"]},
+      {"q": "Double derivative of x^2?", "a": "2", "o": ["2x", "2", "0", "x"]}
+    ],
+    "Vectors": [
+      {"q": "i . i is?", "a": "1", "o": ["0", "1", "-1", "k"]},
+      {"q": "Magnitude of i + j + k?", "a": "√3", "o": ["1", "3", "√3", "0"]}
+    ]
+  },
+  "11": {
+    "Trigonometry": [
+      {"q": "Value of sin(90°)?", "a": "1", "o": ["0", "1", "0.5", "√3/2"]},
+      {"q": "cos(0°)?", "a": "1", "o": ["0", "1", "-1", "0.5"]},
+      {"q": "tan(45°)?", "a": "1", "o": ["0", "1", "√3", "Undefined"]},
+      {"q": "sin^2θ + cos^2θ = ?", "a": "1", "o": ["0", "1", "2", "-1"]},
+      {"q": "Value of sin(180°)?", "a": "0", "o": ["1", "0", "-1", "0.5"]},
+      {"q": "1 + tan^2θ = ?", "a": "sec^2θ", "o": ["cos^2θ", "sec^2θ", "cosec^2θ", "1"]},
+      {"q": "cos(90°)?", "a": "0", "o": ["0", "1", "0.5", "-1"]},
+      {"q": "Value of π radians?", "a": "180°", "o": ["90°", "180°", "360°", "270°"]},
+      {"q": "sin(2θ) formula?", "a": "2sinθcosθ", "o": ["sinθcosθ", "2sinθcosθ", "cos2θ", "tanθ"]},
+      {"q": "cosec(30°)?", "a": "2", "o": ["1", "2", "0.5", "√2"]}
+    ]
+  },
+  "10": {
+    "Algebra": [
+      {"q": "Discriminant (D) formula?", "a": "b^2-4ac", "o": ["b-4ac", "b^2-4ac", "4ac-b^2", "2a"]},
+      {"q": "Roots of x^2-9=0?", "a": "±3", "o": ["0", "3", "±3", "9"]},
+      {"q": "HCF of 10 and 20?", "a": "10", "o": ["5", "10", "2", "20"]},
+      {"q": "5th term of 2, 4, 6...?", "a": "10", "o": ["8", "10", "12", "14"]},
+      {"q": "Nature of roots if D=0?", "a": "Real & Equal", "o": ["Imaginary", "Real & Equal", "Distinct", "None"]},
+      {"q": "Sum of first 10 natural nos?", "a": "55", "o": ["50", "55", "45", "60"]},
+      {"q": "Area of circle?", "a": "πr^2", "o": ["2πr", "πr^2", "πd", "4π"]},
+      {"q": "sin(30°)?", "a": "1/2", "o": ["1", "1/2", "√3/2", "0"]},
+      {"q": "Median of 1, 3, 5?", "a": "3", "o": ["1", "3", "5", "9"]},
+      {"q": "Prob. of getting Head?", "a": "1/2", "o": ["1", "0", "1/2", "1"]}
+    ]
+  },
+  "9": {
+    "Geometry": [
+      {"q": "Sum of angles in Triangle?", "a": "180°", "o": ["90°", "180°", "360°", "270°"]},
+      {"q": "Is 0 a rational number?", "a": "Yes", "o": ["Yes", "No", "Maybe", "None"]},
+      {"q": "Area of Square (side a)?", "a": "a^2", "o": ["4a", "a^2", "2a", "a^3"]},
+      {"q": "Value of √16?", "a": "4", "o": ["2", "4", "8", "16"]},
+      {"q": "Angles of rectangle?", "a": "90°", "o": ["60°", "90°", "180°", "45°"]},
+      {"q": "Supplement of 100°?", "a": "80°", "o": ["10°", "80°", "180°", "90°"]},
+      {"q": "Heron's Formula uses?", "a": "Semi-perimeter", "o": ["Base", "Height", "Semi-perimeter", "Radius"]},
+      {"q": "Sides of a pentagon?", "a": "5", "o": ["4", "5", "6", "8"]},
+      {"q": "Longest chord is?", "a": "Diameter", "o": ["Radius", "Arc", "Diameter", "Sector"]},
+      {"q": "Coordinate of Origin?", "a": "(0,0)", "o": ["(1,1)", "(0,0)", "(0,1)", "(1,0)"]}
+    ]
+  },
+  "8": {
+    "Basics": [
+      {"q": "Square of 12?", "a": "144", "o": ["120", "144", "100", "44"]},
+      {"q": "Cube root of 27?", "a": "3", "o": ["3", "9", "2", "7"]},
+      {"q": "Additive inverse of 10?", "a": "-10", "o": ["10", "-10", "0", "1"]},
+      {"q": "2^3 is?", "a": "8", "o": ["6", "8", "16", "4"]},
+      {"q": "1 kg = ? g", "a": "1000", "o": ["100", "1000", "10", "500"]},
+      {"q": "Smallest prime number?", "a": "2", "o": ["1", "2", "3", "0"]},
+      {"q": "Area of Rectangle?", "a": "L x B", "o": ["L+B", "L x B", "2(L+B)", "L^2"]},
+      {"q": "3x = 9, x = ?", "a": "3", "o": ["1", "3", "9", "27"]},
+      {"q": "Sides of Hexagon?", "a": "6", "o": ["5", "6", "8", "4"]},
+      {"q": "Prob. of impossible event?", "a": "0", "o": ["1", "0.5", "0", "-1"]}
+    ]
+  }
+}
