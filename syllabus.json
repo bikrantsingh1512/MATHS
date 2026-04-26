@@ -1,60 +1,78 @@
 {
   "8": [
-    {
-      "chapter": "1. Rational Numbers",
-      "topics": "◆ Weightage: 5 Marks | Difficulty: Easy\n◆ Core Concepts: Closure, Commutativity, and Associativity. \n◆ Exam Tip: Must practice Distributive property word problems and finding 5-10 rational numbers between two fractions."
-    },
-    {
-      "chapter": "2. Linear Equations in One Variable",
-      "topics": "◆ Weightage: 8 Marks | Difficulty: Medium\n◆ Core Concepts: Solving equations with variables on both sides. \n◆ Exam Tip: Focus on Application-based problems involving ages, sum of digits, and perimeter of rectangles."
-    }
+    { "chapter": "1. Rational Numbers", "topics": "◆ Marks: 5 | Easy\n◆ Topics: Closure, Commutative, Associative & Distributive laws. Identity and Inverse.\n◆ Tip: Practice 'Finding 10 rational numbers between two fractions'—it's a guaranteed question." },
+    { "chapter": "2. Linear Equations in One Variable", "topics": "◆ Marks: 8 | Medium\n◆ Topics: Equations with variables on both sides, reducing equations to simpler forms.\n◆ Tip: Focus on word problems involving age, currency denominations, and perimeter." },
+    { "chapter": "3. Understanding Quadrilaterals", "topics": "◆ Marks: 7 | Medium\n◆ Topics: Polygon angle sum, properties of Parallelogram, Rhombus, Rectangle, and Square.\n◆ Tip: Learn the 'Exterior Angle Sum' property; it helps solve complex figure problems quickly." },
+    { "chapter": "4. Data Handling", "topics": "◆ Marks: 6 | Easy\n◆ Topics: Grouped data, Histograms, and Pie Charts. Basic Probability concepts.\n◆ Tip: Practice drawing Pie charts with a protractor. Probability of 'getting a prime number' on a die is common." },
+    { "chapter": "5. Squares and Square Roots", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Pythagorean triplets, Square properties, Long Division Method, and Decimals.\n◆ Tip: Memorize squares up to 25. Long division of decimals is a 3-mark favorite for teachers." },
+    { "chapter": "6. Cubes and Cube Roots", "topics": "◆ Marks: 5 | Easy\n◆ Topics: Cube properties, Prime Factorisation, and Estimation method.\n◆ Tip: Master the method of 'What smallest number should be multiplied/divided to make a perfect cube'." },
+    { "chapter": "7. Comparing Quantities", "topics": "◆ Marks: 8 | Hard\n◆ Topics: Ratios, Percentages, Profit/Loss, GST, and Compound Interest (CI).\n◆ Tip: Focus on CI compounded half-yearly. It's the most confusing yet high-weightage part." },
+    { "chapter": "8. Algebraic Expressions & Identities", "topics": "◆ Marks: 8 | Medium\n◆ Topics: Addition/Subtraction of polynomials, multiplication, and the 3 Standard Identities.\n◆ Tip: Use (a+b)(a-b) = a²-b² for fast numerical calculations like 98 x 102." },
+    { "chapter": "9. Mensuration", "topics": "◆ Marks: 10 | Hard\n◆ Topics: Area of Trapezium/General Quadrilateral. TSA, LSA, and Volume of Cube, Cuboid, Cylinder.\n◆ Tip: Always write units (cm²/m³). Surface area of a 'hollow pipe' is a high-level exam question." },
+    { "chapter": "10. Exponents and Powers", "topics": "◆ Marks: 5 | Medium\n◆ Topics: Negative exponents, Laws of Exponents, and Standard Form (Scientific Notation).\n◆ Tip: Practice converting 0.000000123 into standard form; it’s a 2-mark fixed question." },
+    { "chapter": "11. Direct and Inverse Proportions", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Direct Variation vs Inverse Variation. Time-Work and Speed-Distance.\n◆ Tip: In Inverse Proportion, x1*y1 = x2*y2. Use this for 'food lasting for soldiers' problems." },
+    { "chapter": "12. Factorisation", "topics": "◆ Marks: 8 | Hard\n◆ Topics: Common factors, Regrouping, Identities, and Splitting the middle term.\n◆ Tip: Splitting the middle term (x²+bx+c) is vital for Class 9/10. Practice at least 20 such sums." },
+    { "chapter": "13. Introduction to Graphs", "topics": "◆ Marks: 5 | Easy\n◆ Topics: Bar graphs, Linear graphs, Coordinates (x, y), and independent/dependent variables.\n◆ Tip: Practice 'Time-Distance' graphs. Remember: Independent variable always goes on the X-axis." }
   ],
   "9": [
-    {
-      "chapter": "1. Number Systems",
-      "topics": "◆ Weightage: 8 Marks | Difficulty: Medium\n◆ Core Concepts: Rationalisation of denominators, Laws of exponents for real bases. \n◆ Exam Tip: Proving √x on number line and finding 'a' and 'b' in rationalization equations."
-    },
-    {
-      "chapter": "2. Polynomials",
-      "topics": "◆ Weightage: 12 Marks | Difficulty: Hard\n◆ Core Concepts: Factor Theorem, Remainder Theorem, and Zeros. \n◆ Exam Tip: Practice the identity x³+y³+z³-3xyz. Factorizing cubic polynomials using trial-and-error."
-    },
-    {
-      "chapter": "3. Coordinate Geometry",
-      "topics": "◆ Weightage: 4 Marks | Difficulty: Easy\n◆ Core Concepts: Cartesian plane, Quadrants, and Sign conventions. \n◆ Exam Tip: Identifying the distance of a point from the X-axis (ordinate) and Y-axis (abscissa)."
-    },
-    {
-      "chapter": "4. Linear Equations in Two Variables",
-      "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Standard form ax+by+c=0 and plotting the straight-line graph. \n◆ Exam Tip: Finding at least 4 solutions for a line to ensure the graph is perfectly accurate."
-    },
-    {
-      "chapter": "5. Introduction to Euclid’s Geometry",
-      "topics": "◆ Weightage: 2 Marks | Difficulty: Easy\n◆ Core Concepts: Axioms and Postulates. \n◆ Exam Tip: Memorize the statement of the 5th Postulate (Parallel Postulate) as it is often asked in 2 marks."
-    },
-    {
-      "chapter": "6. Lines and Angles",
-      "topics": "◆ Weightage: 7 Marks | Difficulty: Medium\n◆ Core Concepts: Vertically opposite, Alternate, and Corresponding angles. \n◆ Exam Tip: Focus on the Triangle Angle Sum property and exterior angle theorem proofs."
-    }
+    { "chapter": "1. Number Systems", "topics": "◆ Marks: 8 | Medium\n◆ Topics: Rationalisation, Laws of Exponents, and Decimal expansions (Terminating/Recurring).\n◆ Tip: Representing √2 or √3 on the number line using a compass is a 4-mark essential." },
+    { "chapter": "2. Polynomials", "topics": "◆ Marks: 12 | Hard\n◆ Topics: Zeroes, Remainder Theorem, Factor Theorem, and Identities like (x+y+z)².\n◆ Tip: Practice factorizing cubic polynomials using the Factor Theorem and long division." },
+    { "chapter": "3. Coordinate Geometry", "topics": "◆ Marks: 4 | Easy\n◆ Topics: Cartesian Plane, Quadrants, Abscissa, and Ordinate.\n◆ Tip: Don't confuse (x,y) with (y,x). Origin (0,0) is the meeting point of both axes." },
+    { "chapter": "4. Linear Equations in Two Variables", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Standard form ax+by+c=0 and plotting straight-line graphs.\n◆ Tip: Every linear equation in two variables has infinitely many solutions. Find 4 for a perfect graph." },
+    { "chapter": "5. Euclid’s Geometry", "topics": "◆ Marks: 2 | Easy\n◆ Topics: Axioms, Postulates, and Definitions.\n◆ Tip: Memorize the 5th Postulate (Parallel Postulate) word-for-word; it's often asked in exams." },
+    { "chapter": "6. Lines and Angles", "topics": "◆ Marks: 7 | Medium\n◆ Topics: Parallel lines, Transversal properties, and Triangle Angle Sum Theorem.\n◆ Tip: The Exterior Angle of a triangle is equal to the sum of two opposite interior angles." },
+    { "chapter": "7. Triangles", "topics": "◆ Marks: 8 | Hard\n◆ Topics: Congruence rules (SAS, ASA, SSS, RHS) and CPCT properties.\n◆ Tip: Focus on proving the 'Angles opposite to equal sides are equal' theorem." },
+    { "chapter": "8. Quadrilaterals", "topics": "◆ Marks: 8 | Medium\n◆ Topics: Properties of Parallelograms and the Mid-point Theorem.\n◆ Tip: The Mid-point Theorem is the most important proof in this chapter. Don't skip it!" },
+    { "chapter": "9. Circles", "topics": "◆ Marks: 8 | Hard\n◆ Topics: Equal chords, angle subtended at center, and Cyclic Quadrilaterals.\n◆ Tip: Practice the theorem: 'Angle subtended by an arc at the center is double the angle at the circumference'." },
+    { "chapter": "10. Heron’s Formula", "topics": "◆ Marks: 4 | Easy\n◆ Topics: Semi-perimeter(s) and Area of Triangle calculation.\n◆ Tip: Use this formula when heights are not given. Perfect for finding areas of scalene triangles." },
+    { "chapter": "11. Surface Areas and Volumes", "topics": "◆ Marks: 10 | Hard\n◆ Topics: CSA, TSA, and Volume of Cone, Sphere, and Hemisphere.\n◆ Tip: Ratio problems (e.g., if radius is doubled, what happens to volume?) are very common." },
+    { "chapter": "12. Statistics", "topics": "◆ Marks: 5 | Medium\n◆ Topics: Histograms with varying base widths and Frequency Polygons.\n◆ Tip: In histograms, if class sizes are unequal, calculate adjusted frequency first." }
   ],
   "10": [
-    {
-      "chapter": "1. Real Numbers",
-      "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Fundamental Theorem of Arithmetic (HCF × LCM = Product of Numbers). \n◆ Exam Tip: Fixed 3-mark question: Prove that √2, √3, or 5+2√3 is an irrational number."
-    },
-    {
-      "chapter": "2. Polynomials",
-      "topics": "◆ Weightage: 4 Marks | Difficulty: Easy\n◆ Core Concepts: Geometrical meaning of zeros and Coefficient relation. \n◆ Exam Tip: Finding a quadratic polynomial when the sum (α+β) and product (αβ) of zeroes are given."
-    }
+    { "chapter": "1. Real Numbers", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Fundamental Theorem of Arithmetic and proving irrationality (√2, √3).\n◆ Tip: Proving '√5 is irrational' is a fixed 3-mark question every year." },
+    { "chapter": "2. Polynomials", "topics": "◆ Marks: 4 | Easy\n◆ Topics: Relationship between Zeroes and Coefficients (α+β, αβ).\n◆ Tip: Focus on finding a quadratic polynomial when zeroes or their sum/product are given." },
+    { "chapter": "3. Pair of Linear Equations", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Substitution, Elimination, and Graphical methods. Consistency conditions.\n◆ Tip: Solve 'Upstream and Downstream' boat problems; they carry 5 marks in the board exams." },
+    { "chapter": "4. Quadratic Equations", "topics": "◆ Marks: 6 | Hard\n◆ Topics: Quadratic Formula, Nature of Roots (Discriminant), and Word Problems.\n◆ Tip: If D > 0 (roots are real/distinct), if D = 0 (roots are equal), if D < 0 (no real roots)." },
+    { "chapter": "5. Arithmetic Progressions (AP)", "topics": "◆ Marks: 7 | Medium\n◆ Topics: n-th term (an) and Sum of n terms (Sn).\n◆ Tip: Word problems on 'saving money' or 'seating arrangements' are high-priority applications." },
+    { "chapter": "6. Triangles", "topics": "◆ Marks: 8 | Hard\n◆ Topics: BPT (Thales Theorem) and Similarity Criteria (AA, SAS).\n◆ Tip: The proof of Basic Proportionality Theorem (BPT) is a 5-mark favorite." },
+    { "chapter": "7. Coordinate Geometry", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Distance Formula, Section Formula, and Mid-point Formula.\n◆ Tip: Practice finding the 'Trisection points' of a line segment using the 1:2 and 2:1 ratios." },
+    { "chapter": "8. Trigonometry", "topics": "◆ Marks: 8 | Hard\n◆ Topics: Trig Ratios, Table values (0-90°), and Identities like sin²θ + cos²θ = 1.\n◆ Tip: Master the values of tan 30°, 45°, and 60°—they are used in almost every problem." },
+    { "chapter": "9. Applications of Trigonometry", "topics": "◆ Marks: 4 | Hard\n◆ Topics: Heights and Distances, Elevation and Depression angles.\n◆ Tip: Draw the diagram correctly; a wrong diagram means zero marks even if the math is right." },
+    { "chapter": "10. Circles", "topics": "◆ Marks: 4 | Medium\n◆ Topics: Tangents from an external point and perpendicularity theorems.\n◆ Tip: Prove that 'Tangents from an external point are equal'—it's a 3-mark staple." },
+    { "chapter": "11. Areas Related to Circles", "topics": "◆ Marks: 4 | Medium\n◆ Topics: Area of Sector and Segment. Shaded region problems.\n◆ Tip: Segment Area = Sector Area - Triangle Area. Practice for θ = 60°, 90°, and 120°." },
+    { "chapter": "12. Surface Areas and Volumes", "topics": "◆ Marks: 6 | Hard\n◆ Topics: Combination of Solids (e.g., Cylinder + 2 Hemispheres).\n◆ Tip: When a solid is melted and recast, its VOLUME remains the same. Use this to find new dimensions." },
+    { "chapter": "13. Statistics", "topics": "◆ Marks: 7 | Medium\n◆ Topics: Mean (Assumed Mean), Median, and Mode. Missing Frequency problems.\n◆ Tip: If 'Median' is given, use the formula to find missing 'x' and 'y'—usually 5 marks." },
+    { "chapter": "14. Probability", "topics": "◆ Marks: 4 | Easy\n◆ Topics: Playing Cards, Dice, and Coin outcomes.\n◆ Tip: Total cards = 52. Remember: 26 Red, 26 Black. 12 Face cards (King, Queen, Jack)." }
   ],
   "11": [
-    {
-      "chapter": "1. Sets",
-      "topics": "◆ Weightage: 6 Marks | Difficulty: Easy\n◆ Core Concepts: Power sets, Universal sets, and Venn Diagrams. \n◆ Exam Tip: De Morgan's Laws and application of n(A∪B) = n(A) + n(B) - n(A∩B)."
-    }
+    { "chapter": "1. Sets", "topics": "◆ Marks: 6 | Easy\n◆ Topics: Power sets, Venn Diagrams, Union, Intersection, and Complement.\n◆ Tip: Practice De Morgan’s Laws and the formula for n(A U B U C)." },
+    { "chapter": "2. Relations and Functions", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Cartesian products, Domain, Range, and Special functions (Modulus, Signum).\n◆ Tip: Learn to find the domain and range of square root and rational functions." },
+    { "chapter": "3. Trigonometric Functions", "topics": "◆ Marks: 10 | Hard\n◆ Topics: Radian measure, sin(x+y), cos(x+y) formulas, and General Solutions.\n◆ Tip: Memorize the 'Transformation Formulas' (2 sin A cos B etc.) to simplify complex integrations later." },
+    { "chapter": "4. Complex Numbers", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Modulus, Conjugate, Iota (i) powers, and Polar representation.\n◆ Tip: Focus on finding the 'Argument' (θ) carefully based on the quadrant." },
+    { "chapter": "5. Linear Inequalities", "topics": "◆ Marks: 5 | Medium\n◆ Topics: Shading feasible regions on a graph and algebraic solutions.\n◆ Tip: When multiplying/dividing by a negative number, the inequality sign MUST flip." },
+    { "chapter": "6. Permutations & Combinations", "topics": "◆ Marks: 7 | Hard\n◆ Topics: nPr, nCr, and Fundamental Principle of Counting.\n◆ Tip: Use P for Arrangement (order matters) and C for Selection (order doesn't matter)." },
+    { "chapter": "7. Binomial Theorem", "topics": "◆ Marks: 5 | Medium\n◆ Topics: General term (Tr+1) and expansion properties.\n◆ Tip: Practice finding the 'Term independent of x' and the 'Middle Term'." },
+    { "chapter": "8. Sequences and Series", "topics": "◆ Marks: 7 | Medium\n◆ Topics: Arithmetic Mean (AM), GP sum to n terms, and Infinite GP.\n◆ Tip: Relationship between AM and GM (AM ≥ GM) is used in many competitive problems." },
+    { "chapter": "9. Straight Lines", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Slope-intercept form, Normal form, and distance between parallel lines.\n◆ Tip: Angle between two lines formula: tan θ = |(m2-m1)/(1+m1m2)|." },
+    { "chapter": "10. Conic Sections", "topics": "◆ Marks: 6 | Hard\n◆ Topics: Equations of Circle, Parabola, Ellipse, and Hyperbola.\n◆ Tip: Practice finding Eccentricity (e), Foci, and Directrix for all shapes." },
+    { "chapter": "11. 3D Geometry", "topics": "◆ Marks: 4 | Easy\n◆ Topics: Octants and distance formula in 3D space.\n◆ Tip: Finding the centroid of a triangle in 3D is a simple 2-mark question." },
+    { "chapter": "12. Limits and Derivatives", "topics": "◆ Marks: 10 | Hard\n◆ Topics: Standard limits and Differentiation using the First Principle.\n◆ Tip: Mastery of sinx/x = 1 limit and Product/Quotient rules is mandatory for Class 12." },
+    { "chapter": "13. Statistics", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Variance and Standard Deviation (SD).\n◆ Tip: Coefficient of Variation (CV) helps in comparing the stability of two data sets." },
+    { "chapter": "14. Probability", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Axiomatic probability and Addition theorem.\n◆ Tip: Focus on P(A or B) and Mutually Exclusive vs Exhaustive events." }
   ],
   "12": [
-    {
-      "chapter": "1. Relations and Functions",
-      "topics": "◆ Weightage: 5 Marks | Difficulty: Medium\n◆ Core Concepts: Reflexive, Symmetric, and Transitive. \n◆ Exam Tip: Fixed question on Equivalence Relations. Understanding Bijective functions."
-    }
+    { "chapter": "1. Relations and Functions", "topics": "◆ Marks: 5 | Medium\n◆ Topics: Reflexive, Symmetric, Transitive, and Equivalence relations. Bijective functions.\n◆ Tip: Proving a function is 'One-to-One and Onto' is a fixed board question." },
+    { "chapter": "2. Inverse Trig Functions", "topics": "◆ Marks: 3 | Medium\n◆ Topics: Principal Value Branches (PVB) and domain/range restrictions.\n◆ Tip: Principal value of sin⁻¹(-1/2) or cos⁻¹(-1/2) must stay within the PVB range." },
+    { "chapter": "3. Matrices", "topics": "◆ Marks: 5 | Easy\n◆ Topics: Matrix multiplication and Symmetric/Skew-symmetric properties.\n◆ Tip: Remember: (AB)ᵀ = BᵀAᵀ. This property is frequently used in 1-mark MCQs." },
+    { "chapter": "4. Determinants", "topics": "◆ Marks: 5 | Medium\n◆ Topics: Adjoint, Inverse, and Solving equations using Matrix Method (AX=B).\n◆ Tip: Solving 3 equations using A⁻¹ is a confirmed 5-mark question." },
+    { "chapter": "5. Continuity & Differentiability", "topics": "◆ Marks: 9 | Hard\n◆ Topics: Chain Rule, Logarithmic differentiation, and Second-order derivatives.\n◆ Tip: If a function is differentiable, it is ALWAYS continuous. Use this for 'k' value problems." },
+    { "chapter": "6. Application of Derivatives", "topics": "◆ Marks: 6 | Hard\n◆ Topics: Rate of change, Intervals of Inc/Dec, and Maxima/Minima.\n◆ Tip: 6-mark word problems on 'Cylinder inside a Sphere' or 'Rectangular tank' are crucial." },
+    { "chapter": "7. Integrals", "topics": "◆ Marks: 10 | Very Hard\n◆ Topics: Substitution, Partial Fractions, and Definite Integral Properties.\n◆ Tip: King's Property (P4) - replacing x with (a+b-x) solves 80% of tricky definite integrals." },
+    { "chapter": "8. Application of Integrals", "topics": "◆ Marks: 6 | Hard\n◆ Topics: Area under simple curves (Circles, Parabolas) using integration.\n◆ Tip: Always draw a rough sketch and find limits before integrating. Shaded area is key." },
+    { "chapter": "9. Differential Equations", "topics": "◆ Topics: Order/Degree and Integrating Factor (IF) for Linear equations.\n◆ Tip: Solution of dy/dx + Py = Q is y(IF) = ∫Q(IF)dx + C. Very important!" },
+    { "chapter": "10. Vector Algebra", "topics": "◆ Marks: 6 | Medium\n◆ Topics: Dot product, Cross product, and Projection of vectors.\n◆ Tip: Dot product = Scalar (a.b), Cross product = Vector (a x b). Area of Triangle = 1/2 |a x b|." },
+    { "chapter": "11. 3D Geometry", "topics": "◆ Marks: 8 | Hard\n◆ Topics: Direction Cosines and Shortest Distance between skew lines.\n◆ Tip: The formula for Shortest Distance between lines is a guaranteed 4-5 mark question." },
+    { "chapter": "12. Linear Programming", "topics": "◆ Marks: 5 | Medium\n◆ Topics: Feasible Region and Corner Point method.\n◆ Tip: Draw clear graphs. Max/Min value always occurs at the corner points of the shaded area." },
+    { "chapter": "13. Probability", "topics": "◆ Marks: 8 | Hard\n◆ Topics: Conditional Probability, Bayes' Theorem, and Bernoulli trials.\n◆ Tip: Bayes' Theorem is the most important topic. Practice 'Bag 1 and Bag 2' ball problems." }
   ]
 }
