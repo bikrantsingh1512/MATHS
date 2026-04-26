@@ -150,7 +150,8 @@
                 const [q, s, n] = await Promise.all([
                     fetch('quiz.json').then(r => r.json()),
                     fetch('syllabus.json').then(r => r.json()),
-                    fetch('notes.json').then(r => r.json())
+                    fetch('notes.json').then(r => r.json()),
+                    fetch('tutors.json').then(r => r.json())
                 ]);
                 appData = { quiz: q, syllabus: s, notes: n };
             } catch (e) { console.log("Nexus Loading..."); }
