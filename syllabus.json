@@ -1,108 +1,78 @@
 {
-  "12": [
-    {
-      "chapter": "Relations and Functions",
-      "topics": "Types of relations: Reflexive, Symmetric, Transitive and Equivalence relations. One to one and onto functions, Composite functions, Inverse of a function."
-    },
-    {
-      "chapter": "Inverse Trigonometric Functions",
-      "topics": "Definition, Range, Domain, Principal value branch. Graphs of inverse trigonometric functions. Elementary properties of inverse trigonometric functions."
-    },
-    {
-      "chapter": "Matrices & Determinants",
-      "topics": "Concept, notation, order, equality, types of matrices. Operation on matrices. Determinant of a square matrix (up to 3x3), properties, Adjoint and Inverse of a matrix. Solving linear equations using Matrix Method."
-    },
-    {
-      "chapter": "Calculus (Differential & Integral)",
-      "topics": "Continuity and Differentiability, Chain Rule, Derivatives of Inverse Trigo, Logarithmic Differentiation. Integration as inverse of differentiation, Integration by substitution, by parts and partial fractions. Definite Integrals and their properties."
-    },
-    {
-      "chapter": "Vectors & 3D Geometry",
-      "topics": "Vectors and scalars, magnitude and direction. Direction cosines and ratios. Dot product and Cross product. Direction cosines/ratios of a line joining two points. Cartesian and Vector equation of a line, Coplanar and Skew lines, Shortest distance. Equation of a plane."
-    },
-    {
-      "chapter": "Linear Programming & Probability",
-      "topics": "LPP: Introduction, related terminology such as constraints, objective function, optimization. Conditional Probability, Multiplication theorem, Independent events, Bayes' theorem, Random variable and its probability distribution."
-    }
-  ],
-  "11": [
-    {
-      "chapter": "Sets and Functions",
-      "topics": "Sets and their representations. Empty set, Finite & Infinite sets, Subsets, Power set, Universal set. Venn diagrams. Union and Intersection of sets. Difference of sets. Complement of a set."
-    },
-    {
-      "chapter": "Trigonometric Functions",
-      "topics": "Positive and negative angles. Measuring angles in radians and in degrees. Signs of trigonometric functions. Sum and difference identities. General solution of trigonometric equations."
-    },
-    {
-      "chapter": "Algebra (Complex Nos & Quadratic)",
-      "topics": "Need for complex numbers, square root of a negative number. Argand plane and polar representation. Linear Inequalities. Permutations and Combinations. Binomial Theorem. Sequence and Series (AP & GP)."
-    },
-    {
-      "chapter": "Coordinate Geometry",
-      "topics": "Straight Lines (Slope, Various forms of equations). Conic Sections: Sections of a cone: Circle, Ellipse, Parabola, Hyperbola. Introduction to Three-dimensional Geometry."
-    },
-    {
-      "chapter": "Statistics and Probability",
-      "topics": "Measures of Dispersion: Range, Mean deviation, variance and standard deviation of ungrouped/grouped data. Probability: Random experiments, outcomes, sample spaces. Axiomatic probability."
-    }
-  ],
-  "10": [
-    {
-      "chapter": "Number Systems & Algebra",
-      "topics": "Real Numbers: Fundamental Theorem of Arithmetic. Polynomials: Zeros of a polynomial. Pair of Linear Equations in Two Variables. Quadratic Equations: Standard form, Nature of roots. Arithmetic Progressions: nth term and sum of n terms."
-    },
-    {
-      "chapter": "Trigonometry",
-      "topics": "Introduction to Trigonometry: Ratios of acute angles. Trigonometric Identities: sin²A + cos²A = 1. Heights and Distances: Angle of elevation, Angle of depression."
-    },
-    {
-      "chapter": "Geometry",
-      "topics": "Triangles: Similarity of triangles, BPT. Circles: Tangents to a circle at point of contact. Area Related to Circles."
-    },
-    {
-      "chapter": "Mensuration & Statistics",
-      "topics": "Surface Areas and Volumes: Combinations of solids (Cylinder, Cone, Sphere). Statistics: Mean, Median and Mode of grouped data. Probability: Classical definition, simple problems."
-    }
+  "8": [
+    { "chapter": "Rational Numbers", "weightage": "5 Marks", "expected_topics": "Properties (Distributivity), finding rational numbers between two numbers." },
+    { "chapter": "Linear Equations in One Variable", "weightage": "8 Marks", "expected_topics": "Word problems based on ages, numbers, and perimeters." },
+    { "chapter": "Understanding Quadrilaterals", "weightage": "7 Marks", "expected_topics": "Properties of Parallelogram, Rhombus, and Angle Sum Property." },
+    { "chapter": "Data Handling", "weightage": "6 Marks", "expected_topics": "Pie charts and basic probability from a deck of cards or dice." },
+    { "chapter": "Squares and Square Roots", "weightage": "6 Marks", "expected_topics": "Finding square roots by Long Division and Pythagorean triplets." },
+    { "chapter": "Cubes and Cube Roots", "weightage": "5 Marks", "expected_topics": "Prime factorisation method to find cube roots." },
+    { "chapter": "Comparing Quantities", "weightage": "8 Marks", "expected_topics": "Compound Interest formula and Discount/GST calculations." },
+    { "chapter": "Algebraic Expressions and Identities", "weightage": "8 Marks", "expected_topics": "Standard Identities like (a+b)(a-b) and polynomial multiplication." },
+    { "chapter": "Mensuration", "weightage": "10 Marks", "expected_topics": "Area of Trapezium and Surface Area/Volume of Cylinders." },
+    { "chapter": "Exponents and Powers", "weightage": "5 Marks", "expected_topics": "Laws of exponents and expressing numbers in Standard Form." },
+    { "chapter": "Direct and Inverse Proportions", "weightage": "6 Marks", "expected_topics": "Time and Work problems, Map scale calculations." },
+    { "chapter": "Factorisation", "weightage": "8 Marks", "expected_topics": "Regrouping terms and splitting the middle term." },
+    { "chapter": "Introduction to Graphs", "weightage": "5 Marks", "expected_topics": "Plotting linear graphs and reading coordinates from a given graph." }
   ],
   "9": [
-    {
-      "chapter": "Number Systems & Polynomials",
-      "topics": "Rational and Irrational numbers. Real numbers and their decimal expansions. Remainder Theorem, Factor Theorem. Algebraic Identities: (a+b+c)², (a+b)³, etc."
-    },
-    {
-      "chapter": "Coordinate Geometry & Linear Eq",
-      "topics": "Cartesian plane, coordinates of a point. Linear Equations in Two Variables: Graph of linear equations, solutions."
-    },
-    {
-      "chapter": "Geometry (Lines & Triangles)",
-      "topics": "Lines and Angles, Triangles (Congruence rules: SAS, ASA, SSS, RHS). Quadrilaterals: Properties of Parallelogram. Circles: Equal chords and their distances."
-    },
-    {
-      "chapter": "Mensuration",
-      "topics": "Heron's Formula: Area of a triangle. Surface Areas and Volumes: Cube, Cuboids, Spheres, Cones, Cylinders."
-    }
+    { "chapter": "Number Systems", "weightage": "8 Marks", "expected_topics": "Rationalising the denominator and laws of real exponents." },
+    { "chapter": "Polynomials", "weightage": "12 Marks", "expected_topics": "Factor Theorem, Remainder Theorem, and Algebraic Identities." },
+    { "chapter": "Coordinate Geometry", "weightage": "4 Marks", "expected_topics": "Plotting points and identifying quadrants." },
+    { "chapter": "Linear Equations in Two Variables", "weightage": "6 Marks", "expected_topics": "Writing equations in ax+by+c=0 form and finding 4 solutions." },
+    { "chapter": "Introduction to Euclid’s Geometry", "weightage": "2 Marks", "expected_topics": "Definitions, Axioms, and the 5th Postulate." },
+    { "chapter": "Lines and Angles", "weightage": "7 Marks", "expected_topics": "Vertically opposite angles and transversal line properties." },
+    { "chapter": "Triangles", "weightage": "8 Marks", "expected_topics": "SAS, ASA, SSS congruence rules and CPCT applications." },
+    { "chapter": "Quadrilaterals", "weightage": "8 Marks", "expected_topics": "Mid-point Theorem and properties of Parallelograms." },
+    { "chapter": "Circles", "weightage": "8 Marks", "expected_topics": "Angle subtended by an arc at the center and cyclic quadrilaterals." },
+    { "chapter": "Heron’s Formula", "weightage": "4 Marks", "expected_topics": "Area of scalene triangles and applications in quadrilaterals." },
+    { "chapter": "Surface Areas and Volumes", "weightage": "10 Marks", "expected_topics": "Volume of Spheres, Cones, and Hemispheres." },
+    { "chapter": "Statistics", "weightage": "5 Marks", "expected_topics": "Bar graphs, Histograms, and Frequency polygons." }
   ],
-  "8": [
-    {
-      "chapter": "Rational Numbers & Linear Eq",
-      "topics": "Properties of Rational Numbers. Linear Equations in One Variable. Understanding Quadrilaterals: Polygons, Parallelograms, Rhombus, Square."
-    },
-    {
-      "chapter": "Data Handling & Squares",
-      "topics": "Organizing Data: Bar graphs, Pie charts. Squares and Square Roots. Cubes and Cube Roots."
-    },
-    {
-      "chapter": "Commercial Maths",
-      "topics": "Comparing Quantities: Percentage, Profit and Loss, Discount, Sales Tax. Compound Interest formula and applications."
-    },
-    {
-      "chapter": "Algebra & Mensuration",
-      "topics": "Algebraic Expressions and Identities. Mensuration: Area of Trapezium, General Quadrilateral. Surface Area and Volume of Cube and Cylinder."
-    },
-    {
-      "chapter": "Exponents & Powers",
-      "topics": "Powers with negative exponents. Laws of exponents. Direct and Inverse Proportions."
-    }
+  "10": [
+    { "chapter": "Real Numbers", "weightage": "6 Marks", "expected_topics": "Fundamental Theorem of Arithmetic and proving irrationality of √3, √5." },
+    { "chapter": "Polynomials", "weightage": "4 Marks", "expected_topics": "Relationship between zeroes and coefficients of quadratic polynomials." },
+    { "chapter": "Pair of Linear Equations in Two Variables", "weightage": "6 Marks", "expected_topics": "Substitution and Elimination methods; Consistency conditions." },
+    { "chapter": "Quadratic Equations", "weightage": "6 Marks", "expected_topics": "Nature of roots (Discriminant) and solving by Quadratic Formula." },
+    { "chapter": "Arithmetic Progressions (AP)", "weightage": "7 Marks", "expected_topics": "Finding n-th term (an) and Sum of first n terms (Sn)." },
+    { "chapter": "Triangles", "weightage": "8 Marks", "expected_topics": "Basic Proportionality Theorem (BPT) and Similarity criteria (AA/SAS)." },
+    { "chapter": "Coordinate Geometry", "weightage": "6 Marks", "expected_topics": "Distance Formula, Section Formula, and Midpoint problems." },
+    { "chapter": "Introduction to Trigonometry", "weightage": "8 Marks", "expected_topics": "Trigonometric Ratios and proving identities using sin²θ + cos²θ = 1." },
+    { "chapter": "Applications of Trigonometry", "weightage": "4 Marks", "expected_topics": "Angle of Elevation and Depression (Heights & Distances)." },
+    { "chapter": "Circles", "weightage": "4 Marks", "expected_topics": "Theorems on length of tangents from an external point." },
+    { "chapter": "Areas Related to Circles", "weightage": "4 Marks", "expected_topics": "Area of Sector and Segment of a circle." },
+    { "chapter": "Surface Areas and Volumes", "weightage": "6 Marks", "expected_topics": "Volume and SA of combinations (e.g., Cylinder + Hemisphere)." },
+    { "chapter": "Statistics", "weightage": "7 Marks", "expected_topics": "Mean, Median, and Mode (Direct and Assumed Mean methods)." },
+    { "chapter": "Probability", "weightage": "4 Marks", "expected_topics": "Classical probability, Coin, Dice, and Card problems." }
+  ],
+  "11": [
+    { "chapter": "Sets", "weightage": "6 Marks", "expected_topics": "Union, Intersection, Complement, and Venn Diagrams." },
+    { "chapter": "Relations and Functions", "weightage": "6 Marks", "expected_topics": "Domain and Range of functions, Cartesian products." },
+    { "chapter": "Trigonometric Functions", "weightage": "10 Marks", "expected_topics": "Radian to Degree conversion, sin(A+B), cos(A+B) formulas." },
+    { "chapter": "Complex Numbers and Quadratic Equations", "weightage": "6 Marks", "expected_topics": "Modulus, Argument, and solving equations with 'i'." },
+    { "chapter": "Linear Inequalities", "weightage": "5 Marks", "expected_topics": "Graphical solution of linear inequalities in two variables." },
+    { "chapter": "Permutations and Combinations", "weightage": "7 Marks", "expected_topics": "Fundamental principle of counting, nPr and nCr applications." },
+    { "chapter": "Binomial Theorem", "weightage": "5 Marks", "expected_topics": "Expansion of (a+b)ⁿ and finding the general term." },
+    { "chapter": "Sequences and Series", "weightage": "7 Marks", "expected_topics": "Arithmetic Mean (AM), Geometric Mean (GM), and Sum of GP." },
+    { "chapter": "Straight Lines", "weightage": "6 Marks", "expected_topics": "Slope-intercept form, Point-slope form, and Distance of a point from a line." },
+    { "chapter": "Conic Sections", "weightage": "6 Marks", "expected_topics": "Equations of Parabola, Ellipse, and Hyperbola." },
+    { "chapter": "Introduction to Three Dimensional Geometry", "weightage": "4 Marks", "expected_topics": "Distance formula in 3D and Section formula." },
+    { "chapter": "Limits and Derivatives", "weightage": "10 Marks", "expected_topics": "Standard limits and derivatives using First Principle." },
+    { "chapter": "Statistics", "weightage": "6 Marks", "expected_topics": "Mean Deviation, Variance, and Standard Deviation." },
+    { "chapter": "Probability", "weightage": "6 Marks", "expected_topics": "Addition theorem of probability and exhaustive events." }
+  ],
+  "12": [
+    { "chapter": "Relations and Functions", "weightage": "5 Marks", "expected_topics": "Reflexive, Symmetric, Transitive relations and Bijective functions." },
+    { "chapter": "Inverse Trigonometric Functions", "weightage": "3 Marks", "expected_topics": "Principal value branch and domain/range of inverse functions." },
+    { "chapter": "Matrices", "weightage": "5 Marks", "expected_topics": "Multiplication of matrices and Symmetric/Skew-symmetric properties." },
+    { "chapter": "Determinants", "weightage": "5 Marks", "expected_topics": "Adjoint, Inverse of a matrix, and Matrix method to solve equations." },
+    { "chapter": "Continuity and Differentiability", "weightage": "9 Marks", "expected_topics": "Logarithmic differentiation and Second-order derivatives." },
+    { "chapter": "Application of Derivatives", "weightage": "6 Marks", "expected_topics": "Maxima and Minima (Word problems) and Rate of change." },
+    { "chapter": "Integrals", "weightage": "10 Marks", "expected_topics": "Integration by Parts, Partial Fractions, and Definite Integral properties." },
+    { "chapter": "Application of Integrals", "weightage": "6 Marks", "expected_topics": "Area under simple curves (Circles, Parabolas, Ellipses)." },
+    { "chapter": "Differential Equations", "weightage": "6 Marks", "expected_topics": "Variable Separable method and Linear Differential Equations." },
+    { "chapter": "Vector Algebra", "weightage": "6 Marks", "expected_topics": "Dot product, Cross product, and Projection of a vector." },
+    { "chapter": "Three Dimensional Geometry", "weightage": "8 Marks", "expected_topics": "Direction Cosines and Shortest distance between two lines." },
+    { "chapter": "Linear Programming", "weightage": "5 Marks", "expected_topics": "Feasible region and Corner Point method for optimization." },
+    { "chapter": "Probability", "weightage": "8 Marks", "expected_topics": "Conditional Probability, Bayes' Theorem, and Random Variables." }
   ]
 }
