@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Guru Pro - APS Fatehgarh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
+    <script src="http://algebrite.org/dist/1.4.0/algebrite.bundle-for-browser.js"></script>
+    <script src='https://unpkg.com/tesseract.js@v4.0.1/dist/tesseract.min.js'></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; background: #0f172a; color: white; overflow-x: hidden; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.1); }
+        .card-grad { background: linear-gradient(135deg, #0ea5e9, #2563eb); }
+        @keyframes pop { 0% { transform: scale(0.95); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+        .animate-pop { animation: pop 0.3s ease-out forwards; }
+    </style>
+</head>
+<body>
+
+    <div id="splash-screen" onclick="enterApp()" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-slate-950 cursor-pointer transition-all duration-500">
+        <div class="text-center space-y-8 p-6">
+            <div class="w-28 h-28 card-grad rounded-[2.5rem] mx-auto flex items-center justify-center shadow-[0_20px_50px_rgba(14,165,233,0.3)] rotate-12">
+                <i data-lucide="calculator" class="w-14 h-14 text-white -rotate-12"></i>
+            </div>
+            <div class="space-y-2">
+                <h1 class="text-5xl font-black italic tracking-tighter text-white">MATHS GURU</h1>
+                <p class="text-sky-400 font-bold tracking-[0.3em] text-xs uppercase">Intelligence Engine</p>
+            </div>
+            <div class="glass p-8 rounded-[3.5rem] border-sky-500/20 shadow-2xl space-y-4">
+                <div class="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Designed By</div>
+                <div class="text-xl font-bold italic">Bikrant Singh & Abhinav Rajput</div>
+                <div class="flex justify-center gap-4 text-xs font-bold text-sky-500">
+                    <span>Class 12-A</span>
+                    <span class="text-slate-700">|</span>
+                    <span>APS Fatehgarh</span>
+                </div>
+            </div>
+            <p class="text-slate-500 text-sm animate-pulse">Tap to Start Application</p>
+        </div>
+    </div>
+
+    <main id="app-content" class="hidden min-h-screen pb-32">
+        <header class="p-6 flex justify-between items-center sticky top-0 z-40 bg-slate-950/80 backdrop-blur-md">
+            <div>
+                <h2 id="view-title" class="text-2xl font-black italic text-sky-400 uppercase tracking-tight">DASHBOARD</h2>
+                <p class="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Army Public School</p>
+            </div>
+            <div class="w-12 h-12 bg-slate-900 rounded-2xl flex items-center justify-center border border-white/5">
+                <i data-lucide="brain-circuit" class="w-6 h-6 text-sky-400"></i>
+            </div>
+        </header>
+
+        <div id="dynamic-view" class="px-6 space-y-6"></div>
+    </main>
+
+    <nav class="fixed bottom-6 left-6 right-6 glass rounded-[2.5rem] p-4 flex justify-around items-center z-40 border border-white/10 shadow-2xl">
+        <button onclick="renderView('doubt')" class="text-slate-500 hover:text-sky-400 transition-all"><i data-lucide="message-circle"></i></button>
+        <button onclick="renderView('quiz')" class="text-slate-500 hover:text-sky-400 transition-all"><i data-lucide="award"></i></button>
+        <button onclick="renderDashboard()" class="text-sky-400 bg-sky-500/10 p-4 rounded-2xl"><i data-lucide="layout-grid"></i></button>
+        <button onclick="renderView('syllabus')" class="text-slate-500 hover:text-sky-400 transition-all"><i data-lucide="book-open"></i></button>
+        <button onclick="renderView('notes')" class="text-slate-500 hover:text-sky-400 transition-all"><i data-lucide="file-text"></i></button>
+    </nav>
+
+    <script>
+        lucide.createIcons();
+        let appData = { quiz: {}, syllabus: {}, notes: {} };
+
+        async function loadData() {
+            try {
+                const [q, s, n] = await Promise.all([
+                    fetch('quiz.json').then(r => r.json()),
+                    fetch('syllabus.json').then(r => r.json()),
+                    fetch('notes.json').then(r => r.json())
+                ]);
+                appData = { quiz: q, syllabus: s, notes: n };
+            } catch (e) { console.error("JSON Error: Missing Data Files!"); }
+        }
+        window.onload = loadData;
+
+        function enterApp() {
+            document.getElementById('splash-screen').classList.add('opacity-0', 'invisible');
+            document.getElementById('app-content').classList.remove('hidden');
+            renderDashboard();
+        }
+
+        function renderDashboard() {
+            const container = document.getElementById('dynamic-view');
+            document.getElementById('view-title').innerText = "DASHBOARD";
+            container.innerHTML = `
+                <div class="grid grid-cols-2 gap-4 animate-pop pt-4">
+                    <div onclick="renderView('doubt')" class="glass p-8 rounded-[2.5rem] flex flex-col items-center gap-4 border-b-4 border-sky-500 active:scale-95 transition cursor-pointer">
+                        <div class="p-4 bg-sky-500/10 rounded-2xl text-sky-400"><i data-lucide="help-circle"></i></div>
+                        <span class="font-black text-[10px] tracking-widest uppercase">AI Solver</span>
+                    </div>
+                    <div onclick="renderView('quiz')" class="glass p-8 rounded-[2.5rem] flex flex-col items-center gap-4 border-b-4 border-green-500 active:scale-95 transition cursor-pointer">
+                        <div class="p-4 bg-green-500/10 rounded-2xl text-green-400"><i data-lucide="brain"></i></div>
+                        <span class="font-black text-[10px] tracking-widest uppercase">Master Quiz</span>
+                    </div>
+                    <div onclick="renderView('syllabus')" class="glass p-8 rounded-[2.5rem] flex flex-col items-center gap-4 border-b-4 border-purple-500 active:scale-95 transition cursor-pointer">
+                        <div class="p-4 bg-purple-500/10 rounded-2xl text-purple-400"><i data-lucide="scroll"></i></div>
+                        <span class="font-black text-[10px] tracking-widest uppercase">Syllabus</span>
+                    </div>
+                    <div onclick="renderView('notes')" class="glass p-8 rounded-[2.5rem] flex flex-col items-center gap-4 border-b-4 border-yellow-500 active:scale-95 transition cursor-pointer">
+                        <div class="p-4 bg-yellow-500/10 rounded-2xl text-yellow-400"><i data-lucide="file-text"></i></div>
+                        <span class="font-black text-[10px] tracking-widest uppercase">Notes</span>
+                    </div>
+                </div>
+            `;
+            lucide.createIcons();
+        }
+
+        // --- THE NEXT-GEN NLP SOLVER ENGINE ---
+        function smartSolve() {
+            let rawInput = document.getElementById('m-input').value;
+            const box = document.getElementById('ans-box');
+            box.classList.remove('hidden');
+
+            // Doubtnut Style NLP Processing
+            let query = rawInput.toLowerCase()
+                .replace(/what is|find|calculate|solve|value of|the|result of|is|of|please|\?/gi, "") 
+                .replace(/factorial of|factorial/gi, "!")
+                .replace(/sum of|add|plus/gi, "+")
+                .replace(/difference of|subtract|minus/gi, "-")
+                .replace(/product of|multiplied by|times/gi, "*")
+                .replace(/divided by/gi, "/")
+                .replace(/square root of/gi, "sqrt")
+                .replace(/derivative of|differentiate/gi, "d")
+                .replace(/integral of|integrate/gi, "integral")
+                .replace(/transpose of/gi, "transpose").replace(/inverse of/gi, "inv")
+                .replace(/sin /gi, "sin(").replace(/cos /gi, "cos(").replace(/tan /gi, "tan(")
+                .trim();
+
+            // Permission Guard
+            const mathKeywords = ['+','-','*','/','^','!','(',')','sqrt','sin','cos','tan','log','ln','d(','integral','limit','matrix','inv','det','adj','vector','dot','cross','union','intersect','x','y','z','theta','pi','e','i','factor'];
+            const isMath = mathKeywords.some(k => query.includes(k)) || /[0-9]/.test(query);
+
+            if (!isMath || query.length < 1) {
+                box.innerHTML = `
+                    <div class="glass p-8 rounded-[2.5rem] border-l-8 border-red-500 animate-pop">
+                        <p class="text-[10px] text-red-500 font-bold uppercase tracking-widest">Access Restricted</p>
+                        <h2 class="text-lg font-bold text-white mt-2">Permission is not given to the system to solve this question.</h2>
+                        <p class="text-[8px] text-slate-500 mt-4 uppercase">Academic Queries Only - APS Security Protocol</p>
+                    </div>`;
+                return;
+            }
+
+            try {
+                let res;
+                // CASE: Factors Logic
+                if (rawInput.toLowerCase().includes("factor") && !rawInput.toLowerCase().includes("factorial")) {
+                    let num = parseInt(query.replace(/[^0-9]/g, ''));
+                    if (num) {
+                        let factors = [];
+                        for (let i = 1; i <= num; i++) { if (num % i === 0) factors.push(i); }
+                        res = "Factors: " + factors.join(", ");
+                    }
+                } 
+                // CASE: Higher Math (Calculus/Algebra)
+                else if (/[a-z]/.test(query) || query.includes("integral") || query.includes("d(")) {
+                    if(query.startsWith("integral")) {
+                        res = Algebrite.run(`integral(${query.replace("integral", "").trim()})`).toString();
+                    } else if(query.startsWith("d")) {
+                        res = Algebrite.run(`d(${query.replace("d", "").trim()})`).toString();
+                    } else {
+                        res = Algebrite.run(query).toString();
+                    }
+                } 
+                // CASE: Basic Math
+                else {
+                    res = math.evaluate(query);
+                }
+
+                box.innerHTML = `
+                    <div class="glass p-8 rounded-[2.5rem] border-l-8 border-sky-500 animate-pop shadow-2xl">
+                        <p class="text-[10px] text-slate-500 font-bold uppercase tracking-widest mb-2">AI Master Solution</p>
+                        <h2 class="text-3xl font-black text-white">${res}</h2>
+                        <div class="mt-6 pt-4 border-t border-white/5 flex justify-between items-center">
+                            <div>
+                                <p class="text-[9px] text-sky-400 font-bold uppercase">APS MATHS-AI</p>
+                                <p class="text-[7px] text-slate-600 font-bold">Farrukhabad District Level v3.0</p>
+                            </div>
+                            <i data-lucide="check-circle" class="w-5 h-5 text-green-500"></i>
+                        </div>
+                    </div>`;
+            } catch(e) {
+                box.innerHTML = `<div class="glass p-6 rounded-3xl text-yellow-500 font-bold mt-4 border-2 border-yellow-500/10 text-xs">Invalid Math Format! Try sin(30) or d(x^2).</div>`;
+            }
+            lucide.createIcons();
+        }
+
+        async function ocr(e) {
+            const box = document.getElementById('ans-box');
+            box.classList.remove('hidden');
+            box.innerHTML = `<p class="p-6 text-center text-sky-400 animate-pulse font-bold text-xs uppercase">AI Scanning Image...</p>`;
+            const worker = await Tesseract.createWorker('eng');
+            const { data: { text } } = await worker.recognize(e.target.files[0]);
+            document.getElementById('m-input').value = text.trim();
+            smartSolve();
+            await worker.terminate();
+        }
+
+        function renderView(view) {
+            const container = document.getElementById('dynamic-view');
+            document.getElementById('view-title').innerText = view.toUpperCase();
+
+            if(view === 'doubt') {
+                container.innerHTML = `
+                    <div class="space-y-6 animate-pop">
+                        <div class="glass p-6 rounded-[3rem] border-2 border-sky-500/20 shadow-2xl">
+                            <textarea id="m-input" class="w-full bg-transparent outline-none text-xl mb-4 p-2 font-bold placeholder:text-slate-600" rows="3" placeholder="Ex: Value of sin 30, Factorial 5, or Differentiate x^2..."></textarea>
+                            <button onclick="smartSolve()" class="w-full card-grad py-5 rounded-3xl font-black tracking-widest shadow-xl active:scale-95 transition">ASK MASTER SOLVER</button>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <button onclick="document.getElementById('cam').click()" class="glass p-6 rounded-3xl flex flex-col items-center gap-2"><i data-lucide="camera" class="text-sky-400"></i><span class="text-[10px] font-bold uppercase">Camera</span><input type="file" id="cam" capture="environment" class="hidden" onchange="ocr(event)"></button>
+                            <button onclick="document.getElementById('stor').click()" class="glass p-6 rounded-3xl flex flex-col items-center gap-2"><i data-lucide="image" class="text-sky-400"></i><span class="text-[10px] font-bold uppercase">Storage</span><input type="file" id="stor" class="hidden" onchange="ocr(event)"></button>
+                        </div>
+                        <div id="ans-box" class="hidden"></div>
+                    </div>`;
+            } else if(view === 'quiz') {
+                container.innerHTML = `<div class="glass p-6 rounded-[2.5rem] space-y-4 animate-pop">
+                    <select id="q-c" onchange="loadQTopics()" class="w-full bg-slate-900 p-5 rounded-2xl border border-white/10 font-bold outline-none">
+                        <option value="">Select Class</option>
+                        ${Object.keys(appData.quiz).map(c => `<option value="${c}">Class ${c}</option>`).join('')}
+                    </select>
+                    <div id="q-sub" class="hidden space-y-4">
+                        <select id="q-t" class="w-full bg-slate-900 p-5 rounded-2xl border border-white/10 font-bold outline-none"></select>
+                        <button onclick="beginQuiz()" class="w-full card-grad py-5 rounded-2xl font-black">START TEST</button>
+                    </div>
+                    <div id="quiz-screen"></div>
+                </div>`;
+            } else if(view === 'syllabus' || view === 'notes') {
+                container.innerHTML = `<div class="glass p-6 rounded-[2.5rem] mb-4 animate-pop">
+                    <select id="l-c" onchange="${view === 'syllabus' ? 'showSyl()' : 'showNot()'}" class="w-full bg-slate-900 p-5 rounded-2xl border border-white/10 font-bold outline-none">
+                        <option value="">Select Class</option>
+                        ${Object.keys(view === 'syllabus' ? appData.syllabus : appData.notes).map(c => `<option value="${c}">Class ${c}</option>`).join('')}
+                    </select>
+                </div><div id="list-container" class="space-y-4 pb-10"></div>`;
+            }
+            lucide.createIcons();
+        }
+
+        function showSyl() {
+            const c = document.getElementById('l-c').value;
+            if(!c) return;
+            document.getElementById('list-container').innerHTML = appData.syllabus[c].map(s => `<div class="glass p-6 rounded-3xl border-l-4 border-purple-500 animate-pop"><h4 class="font-bold text-purple-400">${s.chapter}</h4><p class="text-[10px] text-slate-500 mt-2">${s.topics}</p></div>`).join('') + `<p class="text-center text-[8px] font-bold opacity-30 uppercase tracking-[0.3em] py-8">Army Public School Fatehgarh</p>`;
+        }
+
+        function showNot() {
+            const c = document.getElementById('l-c').value;
+            if(!c) return;
+            document.getElementById('list-container').innerHTML = appData.notes[c].map(n => `<div class="glass p-8 rounded-3xl border-l-4 border-yellow-500 animate-pop"><h4 class="font-bold text-yellow-400 mb-3">${n.title}</h4><p class="text-sm text-slate-300 whitespace-pre-line">${n.content}</p></div>`).join('') + `<p class="text-center text-[8px] font-bold opacity-30 uppercase tracking-[0.3em] py-8">Army Public School Fatehgarh</p>`;
+        }
+
+        function loadQTopics() {
+            const c = document.getElementById('q-c').value;
+            if(!c) return;
+            document.getElementById('q-t').innerHTML = Object.keys(appData.quiz[c]).map(t => `<option value="${t}">${t}</option>`).join('');
+            document.getElementById('q-sub').classList.remove('hidden');
+        }
+
+        function beginQuiz() {
+            const c = document.getElementById('q-c').value;
+            const t = document.getElementById('q-t').value;
+            renderQuizQ(appData.quiz[c][t], 0, 0);
+        }
+
+        function renderQuizQ(qs, i, score) {
+            const screen = document.getElementById('quiz-screen');
+            const q = qs[i];
+            screen.innerHTML = `
+                <div class="space-y-6 mt-6 animate-pop">
+                    <p class="text-xs font-black text-sky-500 uppercase">Question ${i+1}/${qs.length}</p>
+                    <p class="text-lg font-bold">${q.q}</p>
+                    <div class="grid gap-3">
+                        ${q.o.map(o => `<button onclick="handleAns('${o}','${q.a}',${i},${JSON.stringify(qs).replace(/"/g, '&quot;')},${score})" class="p-5 bg-slate-900 border border-white/5 rounded-2xl text-left hover:border-sky-500 transition">${o}</button>`).join('')}
+                    </div>
+                </div>`;
+        }
+
+        function handleAns(s, a, i, qs, score) {
+            if(s === a) score++;
+            if(i+1 < qs.length) renderQuizQ(qs, i+1, score);
+            else {
+                document.getElementById('quiz-screen').innerHTML = `
+                    <div class="text-center p-10 glass rounded-[2.5rem] border-2 border-sky-500 mt-6 animate-pop">
+                        <i data-lucide="trophy" class="w-16 h-16 text-yellow-400 mx-auto mb-4"></i>
+                        <h2 class="text-2xl font-black mb-2">Quiz Finished</h2>
+                        <h3 class="text-6xl font-black text-white">${score} / ${qs.length}</h3>
+                        <button onclick="renderDashboard()" class="w-full card-grad py-4 rounded-2xl font-bold mt-8">GO TO DASHBOARD</button>
+                    </div>`;
+                lucide.createIcons();
+            }
+        }
+    </script>
+</body>
+</html>
