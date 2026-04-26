@@ -1,76 +1,68 @@
 {
-  "12": {
-    "Calculus": [
-      {"q": "Derivative of sin(x)?", "a": "cos(x)", "o": ["sin(x)", "cos(x)", "-cos(x)", "tan(x)"]},
-      {"q": "Integral of 1/x?", "a": "log(x)", "o": ["x", "1", "log(x)", "e^x"]},
-      {"q": "d/dx of e^x?", "a": "e^x", "o": ["e^x", "xe^x", "0", "1"]},
-      {"q": "Value of ∫ sin(x) dx?", "a": "-cos(x) + C", "o": ["cos(x)", "-cos(x) + C", "sin(x)", "tan(x)"]},
-      {"q": "Order of (dy/dx)^2 + y = 0?", "a": "1", "o": ["1", "2", "0", "3"]},
-      {"q": "∫ sec^2(x) dx?", "a": "tan(x)", "o": ["sec(x)", "tan(x)", "cot(x)", "sin(x)"]},
-      {"q": "d/dx of log(x)?", "a": "1/x", "o": ["x", "log(x)", "1/x", "0"]},
-      {"q": "Derivative of constant is?", "a": "0", "o": ["1", "0", "constant", "x"]},
-      {"q": "∫ e^x dx?", "a": "e^x + C", "o": ["e^x", "e^x + C", "xe^x", "log x"]},
-      {"q": "Double derivative of x^2?", "a": "2", "o": ["2x", "2", "0", "x"]}
+  "8": {
+    "Rational Numbers": [
+      { "question": "What is the additive inverse of -5/9?", "options": ["5/9", "-5/9", "9/5", "0"], "answer": "5/9", "explanation": "Sum of a number and its additive inverse is 0." },
+      { "question": "Multiplicative inverse of 0 is?", "options": ["1", "0", "Not defined", "-1"], "answer": "Not defined", "explanation": "Division by zero is not possible." },
+      { "question": "Between two rational numbers, there are?", "options": ["10 numbers", "100 numbers", "Infinite numbers", "None"], "answer": "Infinite numbers", "explanation": "Rational numbers are dense." },
+      { "question": "Multiplicative identity for rational numbers is?", "options": ["0", "1", "-1", "2"], "answer": "1", "explanation": "Any number multiplied by 1 remains the same." },
+      { "question": "Is 3/0 a rational number?", "options": ["Yes", "No"], "answer": "No", "explanation": "Denominator 'q' cannot be zero." }
     ],
-    "Vectors": [
-      {"q": "i . i is?", "a": "1", "o": ["0", "1", "-1", "k"]},
-      {"q": "Magnitude of i + j + k?", "a": "√3", "o": ["1", "3", "√3", "0"]}
-    ]
-  },
-  "11": {
-    "Trigonometry": [
-      {"q": "Value of sin(90°)?", "a": "1", "o": ["0", "1", "0.5", "√3/2"]},
-      {"q": "cos(0°)?", "a": "1", "o": ["0", "1", "-1", "0.5"]},
-      {"q": "tan(45°)?", "a": "1", "o": ["0", "1", "√3", "Undefined"]},
-      {"q": "sin^2θ + cos^2θ = ?", "a": "1", "o": ["0", "1", "2", "-1"]},
-      {"q": "Value of sin(180°)?", "a": "0", "o": ["1", "0", "-1", "0.5"]},
-      {"q": "1 + tan^2θ = ?", "a": "sec^2θ", "o": ["cos^2θ", "sec^2θ", "cosec^2θ", "1"]},
-      {"q": "cos(90°)?", "a": "0", "o": ["0", "1", "0.5", "-1"]},
-      {"q": "Value of π radians?", "a": "180°", "o": ["90°", "180°", "360°", "270°"]},
-      {"q": "sin(2θ) formula?", "a": "2sinθcosθ", "o": ["sinθcosθ", "2sinθcosθ", "cos2θ", "tanθ"]},
-      {"q": "cosec(30°)?", "a": "2", "o": ["1", "2", "0.5", "√2"]}
-    ]
-  },
-  "10": {
-    "Algebra": [
-      {"q": "Discriminant (D) formula?", "a": "b^2-4ac", "o": ["b-4ac", "b^2-4ac", "4ac-b^2", "2a"]},
-      {"q": "Roots of x^2-9=0?", "a": "±3", "o": ["0", "3", "±3", "9"]},
-      {"q": "HCF of 10 and 20?", "a": "10", "o": ["5", "10", "2", "20"]},
-      {"q": "5th term of 2, 4, 6...?", "a": "10", "o": ["8", "10", "12", "14"]},
-      {"q": "Nature of roots if D=0?", "a": "Real & Equal", "o": ["Imaginary", "Real & Equal", "Distinct", "None"]},
-      {"q": "Sum of first 10 natural nos?", "a": "55", "o": ["50", "55", "45", "60"]},
-      {"q": "Area of circle?", "a": "πr^2", "o": ["2πr", "πr^2", "πd", "4π"]},
-      {"q": "sin(30°)?", "a": "1/2", "o": ["1", "1/2", "√3/2", "0"]},
-      {"q": "Median of 1, 3, 5?", "a": "3", "o": ["1", "3", "5", "9"]},
-      {"q": "Prob. of getting Head?", "a": "1/2", "o": ["1", "0", "1/2", "1"]}
+    "Mensuration": [
+      { "question": "Area of a trapezium is?", "options": ["1/2(a+b)h", "l*b", "2(l+b)", "πr²"], "answer": "1/2(a+b)h", "explanation": "Half the sum of parallel sides times height." },
+      { "question": "Lateral surface area of a cube is?", "options": ["4l²", "6l²", "l³", "2l²"], "answer": "4l²", "explanation": "Area of 4 vertical faces." },
+      { "question": "Volume of a cylinder is?", "options": ["πr²h", "2πrh", "1/3πr²h", "2πr(r+h)"], "answer": "πr²h", "explanation": "Base area times height." },
+      { "question": "1 cm³ is equal to?", "options": ["1 ml", "10 ml", "100 ml", "1 L"], "answer": "1 ml", "explanation": "Standard unit conversion." },
+      { "question": "Total surface area of a cylinder?", "options": ["2πrh", "2πr(r+h)", "πr²h", "None"], "answer": "2πr(r+h)", "explanation": "Curved area + 2 circular bases." }
     ]
   },
   "9": {
-    "Geometry": [
-      {"q": "Sum of angles in Triangle?", "a": "180°", "o": ["90°", "180°", "360°", "270°"]},
-      {"q": "Is 0 a rational number?", "a": "Yes", "o": ["Yes", "No", "Maybe", "None"]},
-      {"q": "Area of Square (side a)?", "a": "a^2", "o": ["4a", "a^2", "2a", "a^3"]},
-      {"q": "Value of √16?", "a": "4", "o": ["2", "4", "8", "16"]},
-      {"q": "Angles of rectangle?", "a": "90°", "o": ["60°", "90°", "180°", "45°"]},
-      {"q": "Supplement of 100°?", "a": "80°", "o": ["10°", "80°", "180°", "90°"]},
-      {"q": "Heron's Formula uses?", "a": "Semi-perimeter", "o": ["Base", "Height", "Semi-perimeter", "Radius"]},
-      {"q": "Sides of a pentagon?", "a": "5", "o": ["4", "5", "6", "8"]},
-      {"q": "Longest chord is?", "a": "Diameter", "o": ["Radius", "Arc", "Diameter", "Sector"]},
-      {"q": "Coordinate of Origin?", "a": "(0,0)", "o": ["(1,1)", "(0,0)", "(0,1)", "(1,0)"]}
+    "Number Systems": [
+      { "question": "√2 is a/an ________ number.", "options": ["Rational", "Irrational", "Integer", "Whole"], "answer": "Irrational", "explanation": "It cannot be written as p/q." },
+      { "question": "Value of (64)^(1/2) is?", "options": ["4", "8", "16", "32"], "answer": "8", "explanation": "Square root of 64 is 8." },
+      { "question": "Decimal form of 1/11 is?", "options": ["0.09", "0.0909...", "0.9", "0.11"], "answer": "0.0909...", "explanation": "It is a non-terminating repeating decimal." },
+      { "question": "Every real number is an irrational number?", "options": ["True", "False"], "answer": "False", "explanation": "Real numbers also include rational numbers." },
+      { "question": "Rationalise 1/√7:", "options": ["√7/7", "7/√7", "1/7", "√7"], "answer": "√7/7", "explanation": "Multiply numerator and denominator by √7." }
+    ],
+    "Polynomials": [
+      { "question": "Degree of a zero polynomial is?", "options": ["0", "1", "Any number", "Not defined"], "answer": "Not defined", "explanation": "Standard mathematical definition." },
+      { "question": "Factorise x² - 9:", "options": ["(x-3)²", "(x+3)(x-3)", "(x+9)(x-9)", "None"], "answer": "(x+3)(x-3)", "explanation": "Using a² - b² identity." },
+      { "question": "Value of p(x) = 5x - 4x² + 3 at x=0?", "options": ["3", "0", "-1", "5"], "answer": "3", "explanation": "Replace x with 0: 0 - 0 + 3 = 3." },
+      { "question": "x + 1 is a factor of x² + x if?", "options": ["p(-1)=0", "p(1)=0", "p(0)=0", "None"], "answer": "p(-1)=0", "explanation": "Factor Theorem." },
+      { "question": "A linear polynomial has ______ zeroes.", "options": ["0", "1", "2", "Many"], "answer": "1", "explanation": "Degree 1 means max 1 zero." }
     ]
   },
-  "8": {
-    "Basics": [
-      {"q": "Square of 12?", "a": "144", "o": ["120", "144", "100", "44"]},
-      {"q": "Cube root of 27?", "a": "3", "o": ["3", "9", "2", "7"]},
-      {"q": "Additive inverse of 10?", "a": "-10", "o": ["10", "-10", "0", "1"]},
-      {"q": "2^3 is?", "a": "8", "o": ["6", "8", "16", "4"]},
-      {"q": "1 kg = ? g", "a": "1000", "o": ["100", "1000", "10", "500"]},
-      {"q": "Smallest prime number?", "a": "2", "o": ["1", "2", "3", "0"]},
-      {"q": "Area of Rectangle?", "a": "L x B", "o": ["L+B", "L x B", "2(L+B)", "L^2"]},
-      {"q": "3x = 9, x = ?", "a": "3", "o": ["1", "3", "9", "27"]},
-      {"q": "Sides of Hexagon?", "a": "6", "o": ["5", "6", "8", "4"]},
-      {"q": "Prob. of impossible event?", "a": "0", "o": ["1", "0.5", "0", "-1"]}
+  "10": {
+    "Real Numbers": [
+      { "question": "Product of HCF and LCM of 6 and 20 is?", "options": ["120", "26", "60", "12"], "answer": "120", "explanation": "6 * 20 = 120." },
+      { "question": "√2 is an irrational number was proved by?", "options": ["Pythagoras", "Euclid", "Gauss", "None"], "answer": "Pythagoras", "explanation": "Discovered by the Pythagoreans." },
+      { "question": "HCF of two co-prime numbers is?", "options": ["0", "1", "Product", "None"], "answer": "1", "explanation": "Co-primes have only 1 as a common factor." },
+      { "question": "Exponent of 2 in prime factorization of 144?", "options": ["2", "3", "4", "5"], "answer": "4", "explanation": "144 = 2⁴ * 3²." },
+      { "question": "π - 22/7 is?", "options": ["Rational", "Irrational", "0", "Integer"], "answer": "Irrational", "explanation": "Irrational - Rational is always Irrational." }
+    ],
+    "Trigonometry": [
+      { "question": "If sin A = 3/5, then cos A is?", "options": ["4/5", "5/3", "3/4", "1"], "answer": "4/5", "explanation": "Using sin²A + cos²A = 1." },
+      { "question": "Value of tan 60°?", "options": ["1", "√3", "1/√3", "0"], "answer": "√3", "explanation": "Standard trig value." },
+      { "question": "sin(90-θ) is?", "options": ["sin θ", "cos θ", "tan θ", "cot θ"], "answer": "cos θ", "explanation": "Complementary angle formula." },
+      { "question": "9sec²A - 9tan²A = ?", "options": ["1", "9", "0", "-9"], "answer": "9", "explanation": "9(sec²A - tan²A) = 9(1) = 9." },
+      { "question": "sin θ when θ increases from 0 to 90?", "options": ["Increases", "Decreases", "Remains same", "None"], "answer": "Increases", "explanation": "sin 0°=0, sin 90°=1." }
+    ]
+  },
+  "11": {
+    "Sets": [
+      { "question": "A set with one element is called?", "options": ["Null set", "Singleton set", "Finite set", "Subset"], "answer": "Singleton set", "explanation": "e.g., {5}." },
+      { "question": "Complement of Universal set is?", "options": ["U", "Φ", "A", "A'"], "answer": "Φ", "explanation": "U' = Φ." },
+      { "question": "If A ⊂ B, then A ∩ B is?", "options": ["A", "B", "Φ", "U"], "answer": "A", "explanation": "A is the smaller part contained in B." },
+      { "question": "Number of proper subsets of {1, 2, 3}?", "options": ["8", "7", "6", "5"], "answer": "7", "explanation": "2ⁿ - 1 = 2³ - 1 = 7." },
+      { "question": "A - B is same as?", "options": ["A ∩ B", "A ∩ B'", "B - A", "None"], "answer": "A ∩ B'", "explanation": "Elements in A but not in B." }
+    ]
+  },
+  "12": {
+    "Matrices": [
+      { "question": "If A is a square matrix, then A + A' is?", "options": ["Symmetric", "Skew-symmetric", "Diagonal", "None"], "answer": "Symmetric", "explanation": "Property: (A+A')' = A'+A = A+A'." },
+      { "question": "If matrix A is 3x4, then each row has?", "options": ["3 elements", "4 elements", "12 elements", "7 elements"], "answer": "4 elements", "explanation": "Number of columns = elements in each row." },
+      { "question": "A matrix with all zeroes is?", "options": ["Identity", "Null matrix", "Square matrix", "None"], "answer": "Null matrix", "explanation": "Represented by O." },
+      { "question": "Product AB exists if?", "options": ["Rows A = Cols B", "Cols A = Rows B", "Square matrices", "None"], "answer": "Cols A = Rows B", "explanation": "Condition for multiplication." },
+      { "question": "Value of |I| (Identity matrix determinant)?", "options": ["0", "1", "-1", "n"], "answer": "1", "explanation": "Determinant of I is always 1." }
     ]
   }
 }
