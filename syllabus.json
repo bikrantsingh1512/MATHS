@@ -1,80 +1,34 @@
 {
   "syllabus": {
     "8": [
-      { "title": "1. Rational Numbers", "content": "◆ Marks: 5 | Difficulty: Easy\n◆ Core Topics: Closure, Commutativity, and Associativity properties. Focus on Distributive law and finding numbers between two rationals." },
-      { "title": "2. Linear Equations in One Variable", "content": "◆ Marks: 8 | Difficulty: Medium\n◆ Core Topics: Solving equations with variables on both sides. High priority: Word problems on ages, perimeters, and currency." },
-      { "title": "3. Understanding Quadrilaterals", "content": "◆ Marks: 7 | Difficulty: Medium\n◆ Core Topics: Interior/Exterior angle sum property. Focus on properties of Parallelograms, Rhombus, and Squares." },
-      { "title": "4. Data Handling", "content": "◆ Marks: 6 | Difficulty: Easy\n◆ Core Topics: Grouped frequency distribution, Histograms, and Circle graphs (Pie Charts). Basic probability of events." },
-      { "title": "5. Squares and Square Roots", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Square numbers properties, Pythagorean triplets. Must practice: Long Division method for decimals." },
-      { "title": "6. Cubes and Cube Roots", "content": "◆ Marks: 5 | Difficulty: Easy\n◆ Core Topics: Properties of cube numbers. Prime factorisation method to find cube roots." },
-      { "title": "7. Comparing Quantities", "content": "◆ Marks: 8 | Difficulty: Hard\n◆ Core Topics: Profit/Loss %, Sales Tax/GST. Most important: Compound Interest formula (Annually vs Half-yearly)." },
-      { "title": "8. Algebraic Expressions and Identities", "content": "◆ Marks: 8 | Difficulty: Medium\n◆ Core Topics: Multiplication of polynomials. Focus on Identities: (a+b)², (a-b)², and (a²-b²)." },
-      { "title": "9. Mensuration", "content": "◆ Marks: 10 | Difficulty: Hard\n◆ Core Topics: Area of Trapezium and General Quadrilaterals. Surface Area and Volume of Cuboid, Cube, and Cylinder." },
-      { "title": "10. Exponents and Powers", "content": "◆ Marks: 5 | Difficulty: Medium\n◆ Core Topics: Powers with negative exponents, Laws of Exponents. Expressing very small/large numbers in Standard Form." },
-      { "title": "11. Direct and Inverse Proportions", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Direct proportion vs Inverse proportion. Focus on Time & Work and Speed-Distance problems." },
-      { "title": "12. Factorisation", "content": "◆ Marks: 8 | Difficulty: Hard\n◆ Core Topics: Factorisation using Identities and Splitting the middle term. Division of algebraic expressions." },
-      { "title": "13. Introduction to Graphs", "content": "◆ Marks: 5 | Difficulty: Easy\n◆ Core Topics: Linear graphs, independent vs dependent variables. Focus on reading coordinates (x, y) accurately." }
+      { "title": "1. Rational Numbers", "content": "◆ Marks: 5 | Focus: Properties & Distributive Law." },
+      { "title": "2. Linear Equations", "content": "◆ Marks: 8 | Focus: Word problems on ages & numbers." }
     ],
     "9": [
-      { "title": "1. Number Systems", "content": "◆ Marks: 8 | Difficulty: Medium\n◆ Core Topics: Rationalisation of denominators, Laws of exponents for real bases. Focus on Representing √x on number line." },
-      { "title": "2. Polynomials", "content": "◆ Marks: 12 | Difficulty: Hard\n◆ Core Topics: Remainder and Factor Theorems. Practice 3-variable identities like (x+y+z)² and x³+y³+z³-3xyz." },
-      { "title": "3. Coordinate Geometry", "content": "◆ Marks: 4 | Difficulty: Easy\n◆ Core Topics: Cartesian plane, Quadrants, and plotting points. Understanding the origin (0,0)." },
-      { "title": "4. Linear Equations in Two Variables", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Standard form ax+by+c=0. Solving for x/y and plotting the straight-line graph." },
-      { "title": "5. Introduction to Euclid’s Geometry", "content": "◆ Marks: 2 | Difficulty: Easy\n◆ Core Topics: Euclid's 5 Postulates and Axioms. High priority: Statement of the 5th Postulate." },
-      { "title": "6. Lines and Angles", "content": "◆ Marks: 7 | Difficulty: Medium\n◆ Core Topics: Vertically opposite angles, Parallel lines with transversals, and Triangle angle sum property." },
-      { "title": "7. Triangles", "content": "◆ Marks: 8 | Difficulty: Hard\n◆ Core Topics: Congruence rules (SAS, ASA, SSS, RHS). Inequalities in triangles and CPCT proofs." },
-      { "title": "8. Quadrilaterals", "content": "◆ Marks: 8 | Difficulty: Medium\n◆ Core Topics: Properties of parallelograms and the Mid-point Theorem (very important for exams)." },
-      { "title": "9. Circles", "content": "◆ Marks: 8 | Difficulty: Hard\n◆ Core Topics: Equal chords and their distance from center. Angles subtended by arcs and Cyclic Quadrilateral properties." },
-      { "title": "10. Heron’s Formula", "content": "◆ Marks: 4 | Difficulty: Easy\n◆ Core Topics: Calculating triangle area using semi-perimeter(s). Application in finding quadrilateral areas." },
-      { "title": "11. Surface Areas and Volumes", "content": "◆ Marks: 10 | Difficulty: Hard\n◆ Core Topics: Surface area and Volume of Cones, Spheres, and Hemispheres. Focus on formula-based word problems." },
-      { "title": "12. Statistics", "content": "◆ Marks: 5 | Difficulty: Easy\n◆ Core Topics: Bar graphs, Histograms (varying base), and Frequency Polygons. Mean, Median, and Mode of raw data." }
+      { "title": "1. Number Systems", "content": "◆ Marks: 8 | Focus: Rationalisation & Laws of Exponents." },
+      { "title": "2. Polynomials", "content": "◆ Marks: 12 | Focus: Factor Theorem & Identities." },
+      { "title": "3. Coordinate Geometry", "content": "◆ Marks: 4 | Focus: Plotting points & Quadrants." },
+      { "title": "4. Linear Equations", "content": "◆ Marks: 6 | Focus: Graphing lines & solutions." },
+      { "title": "5. Euclid’s Geometry", "content": "◆ Marks: 2 | Focus: Axioms & Postulates." },
+      { "title": "6. Lines and Angles", "content": "◆ Marks: 7 | Focus: Alternate & Vertically opposite angles." },
+      { "title": "7. Triangles", "content": "◆ Marks: 8 | Focus: Congruence rules (SAS, ASA)." },
+      { "title": "8. Quadrilaterals", "content": "◆ Marks: 8 | Focus: Mid-point Theorem." },
+      { "title": "9. Circles", "content": "◆ Marks: 8 | Focus: Cyclic quadrilaterals." },
+      { "title": "10. Heron’s Formula", "content": "◆ Marks: 4 | Focus: Area of scalene triangles." },
+      { "title": "11. Surface Areas & Volumes", "content": "◆ Marks: 10 | Focus: Cones & Spheres." },
+      { "title": "12. Statistics", "content": "◆ Marks: 5 | Focus: Histograms & Mean/Median." }
     ],
     "10": [
-      { "title": "1. Real Numbers", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Fundamental Theorem of Arithmetic. Proving √2, √3, √5 as irrational. HCF/LCM application." },
-      { "title": "2. Polynomials", "content": "◆ Marks: 4 | Difficulty: Easy\n◆ Core Topics: Geometrical meaning of zeroes. Relationship between zeroes and coefficients of quadratic polynomials." },
-      { "title": "3. Pair of Linear Equations in Two Variables", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Graphical method, Substitution, and Elimination. High priority: Word problems on upstream/downstream and fractions." },
-      { "title": "4. Quadratic Equations", "content": "◆ Marks: 6 | Difficulty: Hard\n◆ Core Topics: Solving by Quadratic Formula. Nature of Roots (Discriminant). Practice word problems based on speed and time." },
-      { "title": "5. Arithmetic Progressions (AP)", "content": "◆ Marks: 7 | Difficulty: Medium\n◆ Core Topics: Finding the n-th term (an) and Sum of first n terms (Sn). Focus on daily life applications of AP." },
-      { "title": "6. Triangles", "content": "◆ Marks: 8 | Difficulty: Hard\n◆ Core Topics: Basic Proportionality Theorem (BPT) proof. Similarity criteria (AA, SAS, SSS) and Area of similar triangles." },
-      { "title": "7. Coordinate Geometry", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Distance Formula, Section Formula, and Midpoint Formula. Focus on finding the Centroid." },
-      { "title": "8. Introduction to Trigonometry", "content": "◆ Marks: 8 | Difficulty: Medium\n◆ Core Topics: Trig ratios of specific angles (30, 45, 60). Proving identities like sin²θ + cos²θ = 1." },
-      { "title": "9. Some Applications of Trigonometry", "content": "◆ Marks: 4 | Difficulty: Hard\n◆ Core Topics: Heights and Distances. Focus on multi-object problems with two angles of elevation/depression." },
-      { "title": "10. Circles", "content": "◆ Marks: 4 | Difficulty: Medium\n◆ Core Topics: Tangent to a circle theorem. Proving that tangents from an external point are equal." },
-      { "title": "11. Areas Related to Circles", "content": "◆ Marks: 4 | Difficulty: Medium\n◆ Core Topics: Area of sector and segment. Problems based on combinations of plane figures (circles + squares)." },
-      { "title": "12. Surface Areas and Volumes", "content": "◆ Marks: 6 | Difficulty: Hard\n◆ Core Topics: Surface area and Volume of combinations of solids (Cylinder + Cone + Hemisphere)." },
-      { "title": "13. Statistics", "content": "◆ Marks: 7 | Difficulty: Medium\n◆ Core Topics: Mean (Direct & Assumed Mean), Median, and Mode. Understanding the Empirical relationship." },
-      { "title": "14. Probability", "content": "◆ Marks: 4 | Difficulty: Easy\n◆ Core Topics: Theoretical probability of events. Focus on Playing Cards, Dice, and Coin outcomes." }
+      { "title": "1. Real Numbers", "content": "◆ Marks: 6 | Focus: Proving irrationality of root 3." },
+      { "title": "2. Polynomials", "content": "◆ Marks: 4 | Focus: Relationship between zeroes & coefficients." }
     ],
     "11": [
-      { "title": "1. Sets", "content": "◆ Marks: 6 | Difficulty: Easy\n◆ Core Topics: Empty, Finite/Infinite sets, Subsets. Operations: Union, Intersection, and Venn Diagrams." },
-      { "title": "2. Relations and Functions", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Cartesian products, Domain, Co-domain, and Range. Understanding Identity, Modulus, and Signum functions." },
-      { "title": "3. Trigonometric Functions", "content": "◆ Marks: 10 | Difficulty: Hard\n◆ Core Topics: Radian measure, Sign of trig functions. Most important: Formulas like sin(x+y), cos 2x, tan 3x." },
-      { "title": "4. Complex Numbers and Quadratic Equations", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Algebra of complex numbers, Modulus, and Conjugate. Solving quadratic equations with complex roots." },
-      { "title": "5. Linear Inequalities", "content": "◆ Marks: 5 | Difficulty: Medium\n◆ Core Topics: Algebraic and Graphical solutions. Shading the correct feasible region on the graph." },
-      { "title": "6. Permutations and Combinations", "content": "◆ Marks: 7 | Difficulty: Hard\n◆ Core Topics: Fundamental principle of counting, Factorials. Use of nPr for arrangements and nCr for selections." },
-      { "title": "7. Binomial Theorem", "content": "◆ Marks: 5 | Difficulty: Medium\n◆ Core Topics: Pascal's Triangle and expansion of (a+b)ⁿ. Focus on finding the general term and middle term." },
-      { "title": "8. Sequences and Series", "content": "◆ Marks: 7 | Difficulty: Medium\n◆ Core Topics: Arithmetic Mean (AM) and Geometric Progression (GP). Relationship between AM and GM." },
-      { "title": "9. Straight Lines", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Various forms of line equations (Point-slope, Intercept). Distance between a point and a line." },
-      { "title": "10. Conic Sections", "content": "◆ Marks: 6 | Difficulty: Hard\n◆ Core Topics: Standard equations of Circle, Parabola, Ellipse, and Hyperbola. Finding Focus, Directrix, and Eccentricity." },
-      { "title": "11. Introduction to Three Dimensional Geometry", "content": "◆ Marks: 4 | Difficulty: Easy\n◆ Core Topics: Coordinate axes/planes in 3D. Distance formula and Section formula in three dimensions." },
-      { "title": "12. Limits and Derivatives", "content": "◆ Marks: 10 | Difficulty: Hard\n◆ Core Topics: Limits of polynomials/rational functions. Practice 'First Principle' of differentiation for sin x, cos x, xⁿ." },
-      { "title": "13. Statistics", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Measures of dispersion: Mean deviation, Variance, and Standard Deviation for grouped data." },
-      { "title": "14. Probability", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Axiomatic probability, Events (OR, AND, NOT). Mutually exclusive and exhaustive events." }
+      { "title": "1. Sets", "content": "◆ Marks: 6 | Focus: Venn Diagrams & Operations." },
+      { "title": "2. Relations & Functions", "content": "◆ Marks: 6 | Focus: Domain & Range." }
     ],
     "12": [
-      { "title": "1. Relations and Functions", "content": "◆ Marks: 5 | Difficulty: Medium\n◆ Core Topics: Reflexive, Symmetric, and Transitive relations. Bijective functions (One-to-One and Onto)." },
-      { "title": "2. Inverse Trigonometric Functions", "content": "◆ Marks: 3 | Difficulty: Medium\n◆ Core Topics: Principal Value Branches. Focus on Domain and Range restrictions of sin⁻¹x, cos⁻¹x, etc." },
-      { "title": "3. Matrices", "content": "◆ Marks: 5 | Difficulty: Easy\n◆ Core Topics: Multiplication of matrices, Transpose. Symmetric and Skew-symmetric matrix properties." },
-      { "title": "4. Determinants", "content": "◆ Marks: 5 | Difficulty: Medium\n◆ Core Topics: Area of a triangle, Adjoint, and Inverse. Solving linear equations using Matrix Method (X = A⁻¹B)." },
-      { "title": "5. Continuity and Differentiability", "content": "◆ Marks: 9 | Difficulty: Hard\n◆ Core Topics: Chain rule, Implicit/Logarithmic differentiation. Second-order derivatives and Rolle’s Theorem." },
-      { "title": "6. Application of Derivatives", "content": "◆ Marks: 6 | Difficulty: Hard\n◆ Core Topics: Rate of change, Increasing/Decreasing functions. 6-mark word problems on Maxima and Minima." },
-      { "title": "7. Integrals", "content": "◆ Marks: 10 | Difficulty: Hard\n◆ Core Topics: Integration by Substitution, Partial Fractions, and Parts. Definite integral properties (King's Property)." },
-      { "title": "8. Application of Integrals", "content": "◆ Marks: 6 | Difficulty: Hard\n◆ Core Topics: Area bounded by simple curves like Circles, Parabolas, and Ellipses using integration." },
-      { "title": "9. Differential Equations", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Order and Degree. Variable separable method and Linear Differential Equations (dy/dx + Py = Q)." },
-      { "title": "10. Vector Algebra", "content": "◆ Marks: 6 | Difficulty: Medium\n◆ Core Topics: Direction cosines, Unit vectors. Scalar (Dot) product and Vector (Cross) product applications." },
-      { "title": "11. Three Dimensional Geometry", "content": "◆ Marks: 8 | Difficulty: Hard\n◆ Core Topics: Vector/Cartesian equations of a line. Shortest distance between two skew lines." },
-      { "title": "12. Linear Programming", "content": "◆ Marks: 5 | Difficulty: Medium\n◆ Core Topics: Feasible region (bounded/unbounded). Corner Point method for finding Optimal Solutions." },
-      { "title": "13. Probability", "content": "◆ Marks: 8 | Difficulty: Hard\n◆ Core Topics: Conditional Probability, Multiplication Theorem. Most important: Bayes' Theorem and Random Variables." }
+      { "title": "1. Relations & Functions", "content": "◆ Marks: 5 | Focus: Equivalence Relations." },
+      { "title": "2. Inverse Trig Functions", "content": "◆ Marks: 3 | Focus: Principal Value Branch." }
     ]
   }
 }
