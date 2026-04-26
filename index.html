@@ -121,11 +121,12 @@
         <button onclick="renderDashboard()" class="p-4 card-grad rounded-3xl shadow-xl active:scale-90 transition-all mx-2"><i data-lucide="home" class="w-6 h-6"></i></button>
         <button onclick="renderView('notes')" class="p-3 sub-text hover:text-sky-500"><i data-lucide="file-text" class="w-6 h-6"></i></button>
         <button onclick="renderView('syllabus')" class="p-3 sub-text hover:text-sky-500"><i data-lucide="layers" class="w-6 h-6"></i></button>
+        <button onclick="renderView('tutors')" class="p-3 sub-text hover:text-sky-500"><i data-lucide="layers" class="w-6 h-6"></i></button>
     </nav>
-
+    
     <script>
         lucide.createIcons();
-        let appData = { quiz: {}, syllabus: {}, notes: {} };
+        let appData = { quiz: {}, syllabus: {}, notes: {}, tutors{}};
 
         function toggleTheme() {
             document.body.classList.toggle('light-mode');
@@ -147,7 +148,7 @@
 
         async function loadData() {
             try {
-                const [q, s, n] = await Promise.all([
+                const [q, s, n,t] = await Promise.all([
                     fetch('quiz.json').then(r => r.json()),
                     fetch('syllabus.json').then(r => r.json()),
                     fetch('notes.json').then(r => r.json()),
