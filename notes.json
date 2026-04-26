@@ -1,19 +1,204 @@
 {
   "12": [
-    {"title": "Calculus: Complete Guide", "content": "• DIFFERENTIATION: Measures the rate of change. Rules: Product Rule [u'v + uv'], Quotient Rule [(u'v - uv')/v^2].\n• INTEGRATION: The reverse process of differentiation. Fundamental theorem: ∫f(x)dx = F(x) + C.\n• APPLICATIONS: Finding area under curves, tangents, and normals. Important formulas: ∫1/x dx = log|x|, ∫e^x dx = e^x.\n• DIFFERENTIAL EQUATIONS: Solving equations with derivatives using variable separable or linear methods."},
-    {"title": "Vectors & 3D Geometry", "content": "• VECTORS: Magnitude |a| = √(x^2+y^2+z^2). Dot Product: a.b = |a||b|cosθ. Cross Product: a x b = |a||b|sinθ n̂.\n• 3D GEOMETRY: Distance formula, direction cosines (l, m, n). Equation of line: r = a + λb. Shortest distance between skew lines formula is vital for exams."}
-  ],
-  "11": [
-    {"title": "Trigonometry & Sets", "content": "• TRIGONOMETRY: Radians to Degrees conversion (π = 180°). Domain and Range of sin, cos, tan. Multiple angle formulas like sin2A = 2sinAcosA.\n• SETS: Union (A∪B), Intersection (A∩B), and Subsets (2^n). Venn diagrams help visualize relations between sets."},
-    {"title": "Conic Sections", "content": "• CIRCLE: (x-h)^2 + (y-k)^2 = r^2.\n• PARABOLA: y^2 = 4ax (Focus at a,0).\n• ELLIPSE: x^2/a^2 + y^2/b^2 = 1 (e < 1).\n• HYPERBOLA: x^2/a^2 - y^2/b^2 = 1 (e > 1)."}
+    {
+      "title": "Ch 1: Relations and Functions",
+      "content": "◆ TYPES OF RELATIONS: \n1. Reflexive: (a, a) ∈ R for all a ∈ A.\n2. Symmetric: If (a, b) ∈ R, then (b, a) ∈ R.\n3. Transitive: If (a, b) ∈ R and (b, c) ∈ R, then (a, c) ∈ R.\n◆ EQUIVALENCE RELATION: A relation that is Reflexive, Symmetric, and Transitive simultaneously.\n◆ FUNCTIONS: \n- One-to-One (Injective): Every element in domain has a unique image.\n- Onto (Surjective): Range equals Codomain.\n- Bijective: Both One-to-One and Onto. Only bijective functions have inverses.\n◆ COMPOSITION: (gof)(x) = g(f(x)). The domain of 'g' must include the range of 'f'.\n◆ PRACTICAL/LAB: Used in cryptography for secure data transmission and in defining relationships in complex social network databases.\n◆ TIP: To check for equivalence, always test all three properties step-by-step."
+    },
+    {
+      "title": "Ch 2: Inverse Trigonometric Functions",
+      "content": "◆ DEFINITION: Inverse of trig functions within restricted domains to ensure they are bijective.\n◆ PRINCIPAL VALUE BRANCHES:\n- sin⁻¹x: [-π/2, π/2]\n- cos⁻¹x: [0, π]\n- tan⁻¹x: (-π/2, π/2)\n◆ KEY FORMULAS: \n- sin⁻¹x + cos⁻¹x = π/2\n- tan⁻¹x + tan⁻¹y = tan⁻¹[(x+y)/(1-xy)]\n- 2tan⁻¹x = sin⁻¹[2x/(1+x²)] = cos⁻¹[(1-x²)/(1+x²)].\n◆ PRACTICAL/LAB: Used in engineering to find unknown angles in structures and in navigation systems for determining bearings.\n◆ LOGIC: The output of an inverse trigonometric function is always an ANGLE.\n◆ TIP: Always ensure the calculated angle lies within the specified Principal Value Branch range.\n"
+    },
+    {
+      "title": "Ch 3: Matrices",
+      "content": "◆ ORDER: Rows × Columns. A matrix with m rows and n columns is of order m × n.\n◆ TYPES: Row, Column, Square, Diagonal, Identity (I), and Zero matrix.\n◆ OPERATIONS: \n- Addition/Subtraction: Possible only if orders are identical.\n- Multiplication: Number of columns in 1st = Number of rows in 2nd. (AB ≠ BA).\n◆ TRANSPOSE (A'): Interchanging rows and columns. (AB)' = B'A'.\n◆ SYMMETRIC: A = A'. SKEW-SYMMETRIC: A = -A'.\n◆ INVERSE: Exists only for square matrices where |A| ≠ 0.\n◆ PRACTICAL/LAB: Used in 3D computer graphics for transformations (scaling, rotation) and in solving large systems of linear equations in physics.\n◆ TIP: All diagonal elements of a skew-symmetric matrix are always 0."
+    },
+    {
+      "title": "Ch 4: Determinants",
+      "content": "◆ EVALUATION: Expanding along rows or columns. For a 2x2: ad - bc.\n◆ PROPERTIES: \n- If two rows/columns are proportional or identical, determinant is 0.\n- Interchanging any two rows/columns flips the sign of the determinant.\n◆ ADJOINT: Transpose of the cofactor matrix. A(adj A) = |A|I.\n◆ INVERSE FORMULA: A⁻¹ = (1/|A|) * adj A.\n◆ APPLICATIONS: Solving linear equations using Cramer's Rule or Matrix Inverse method (X = A⁻¹B).\n◆ AREA OF TRIANGLE: ½ |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|.\n◆ PRACTICAL/LAB: Used in structural engineering to test the stability of building designs and in digital image processing.\n◆ TIP: Use properties like adding rows to create maximum zeros before expanding."
+    },
+    {
+      "title": "Ch 5: Continuity and Differentiability",
+      "content": "◆ CONTINUITY: A function is continuous at x = c if LHL = RHL = f(c). No jumps or breaks in the graph.\n◆ DIFFERENTIABILITY: Existence of a unique tangent at a point. Differentiability implies continuity.\n◆ DIFFERENTIATION RULES: \n- Chain Rule: d/dx[f(g(x))] = f'(g(x)) * g'(x).\n- Logarithmic: Used when variable is in power (y = xˣ).\n- Parametric: dy/dx = (dy/dt) / (dx/dt).\n◆ SECOND ORDER DERIVATIVE: Differentiating dy/dx again (d²y/dx²).\n◆ MEAN VALUE THEOREM: Rolle’s Theorem and Lagrange’s Mean Value Theorem (LMVT).\n◆ PRACTICAL/LAB: Used to find the speed of a vehicle at a specific moment (speedometer) and in predicting the spread of viruses.\n◆ TIP: If a function has a 'sharp turn' or corner (like |x|), it is not differentiable at that point.\n"
+    },
+    {
+      "title": "Ch 6: Application of Derivatives (AOD)",
+      "content": "◆ RATE OF CHANGE: dy/dx represents how 'y' changes with respect to 'x'.\n◆ INCREASING/DECREASING: f'(x) > 0 means increasing; f'(x) < 0 means decreasing.\n◆ TANGENTS & NORMALS: Slope of tangent m = dy/dx. Slope of normal = -1/m.\n◆ MAXIMA & MINIMA: \n- First Derivative Test: Sign change of f'(x).\n- Second Derivative Test: f''(x) < 0 (Maxima), f''(x) > 0 (Minima).\n◆ APPROXIMATIONS: f(x + Δx) ≈ f(x) + f'(x)Δx.\n◆ PRACTICAL/LAB: Architects use it to maximize the floor area of a building within a fixed perimeter and in rocket science to find peak altitude.\n◆ TIP: In word problems, the quantity to be maximized/minimized should be expressed in terms of a single variable."
+    },
+    {
+      "title": "Ch 7: Integrals",
+      "content": "◆ INDEFINITE: The process of finding the antiderivative. ∫xⁿ dx = xⁿ⁺¹/(n+1) + C.\n◆ METHODS: \n1. Substitution: Putting t = f(x).\n2. Partial Fractions: For rational expressions.\n3. By Parts (ILATE): ∫uv dx = u∫v - ∫(u'∫v)dx.\n◆ DEFINITE: Area under a curve within limits. ∫[a,b] f(x)dx = F(b) - F(a).\n◆ PROPERTIES: King's Property: ∫[0,a] f(x)dx = ∫[0,a] f(a-x)dx.\n◆ PRACTICAL/LAB: Used in physics to calculate the total work done by a variable force and in geography to measure the area of irregular land.\n◆ TIP: Don't forget the integration constant 'C' for indefinite integrals.\n"
+    },
+    {
+      "title": "Ch 8: Application of Integrals",
+      "content": "◆ AREA UNDER CURVE: Finding the area bounded by simple curves like circles, parabolas, and ellipses.\n◆ AREA BETWEEN TWO CURVES: ∫ [f(x) - g(x)] dx between the intersection points.\n◆ STRATEGY: \n1. Sketch the graph accurately.\n2. Find intersection points (limits).\n3. Use vertical (y dx) or horizontal (x dy) strips.\n◆ PRACTICAL/LAB: Engineers use this to calculate the volume of fuel in a tank and in medicine to measure blood flow rate.\n◆ LOGIC: Integration is the continuous sum of infinitely many thin rectangles.\n◆ TIP: Area is a magnitude; if the integral comes out negative, take the absolute value."
+    },
+    {
+      "title": "Ch 9: Differential Equations",
+      "content": "◆ ORDER: Highest order derivative present. DEGREE: Power of the highest order derivative.\n◆ SOLUTIONS: \n1. Variable Separable: Grouping y terms with dy and x terms with dx.\n2. Homogeneous: Substitute y = vx.\n3. Linear Equations: dy/dx + Py = Q. Integrating Factor (IF) = e^∫Pdx.\n◆ PRACTICAL/LAB: Used to model population growth, radioactive decay, and cooling of objects (Newton’s Law of Cooling).\n◆ GENERAL vs PARTICULAR: General solution has a constant 'C', Particular solution finds 'C' using given values.\n◆ TIP: Degree is only defined if the differential equation is a polynomial in its derivatives."
+    },
+    {
+      "title": "Ch 10: Vector Algebra",
+      "content": "◆ MAGNITUDE: |a| = √(x² + y² + z²). Unit vector â = a/|a|.\n◆ SCALAR PRODUCT (DOT): a.b = |a||b| cosθ. Result is a number.\n◆ VECTOR PRODUCT (CROSS): a × b = |a||b| sinθ n̂. Result is a perpendicular vector.\n◆ PROJECTION: Projection of vector 'a' on 'b' is (a.b)/|b|.\n◆ DIRECTION COSINES: l, m, n satisfying l² + m² + n² = 1.\n◆ PRACTICAL/LAB: Used in physics to calculate work (dot product) and torque (cross product). Also essential in video game physics for character movement.\n◆ TIP: If the dot product is zero, the vectors are perpendicular."
+    },
+    {
+      "title": "Ch 11: Three Dimensional Geometry",
+      "content": "◆ DIRECTION RATIOS (DRs): Any numbers proportional to Direction Cosines.\n◆ LINE EQUATION: Vector form r = a + λb. Cartesian form (x-x1)/a = (y-y1)/b = (z-z1)/c.\n◆ SHORTEST DISTANCE: Formula for distance between skew lines (lines that are not parallel and don't intersect).\n◆ PLANE: Vector form r.n = d. Cartesian form ax + by + cz + d = 0.\n◆ ANGLE: Finding the angle between two lines or a line and a plane using cosine/sine formulas.\n◆ PRACTICAL/LAB: Used in air traffic control to prevent plane collisions and in designing complex architectural structures.\n◆ TIP: The numbers (a, b, c) in the plane equation are the direction ratios of the normal to that plane."
+    },
+    {
+      "title": "Ch 12: Linear Programming (LPP)",
+      "content": "◆ OBJECTIVE FUNCTION: Z = ax + by (The value we want to maximize or minimize).\n◆ CONSTRAINTS: Linear inequalities that restrict the variables.\n◆ FEASIBLE REGION: The common area on a graph where all inequalities overlap.\n◆ CORNER POINT METHOD: Checking the value of Z at every vertex of the feasible region.\n◆ PRACTICAL/LAB: Businesses use it to maximize profit or minimize production costs while dealing with limited labor and materials.\n◆ LOGIC: The optimal solution always occurs at the boundaries/corners of the region.\n◆ TIP: If the feasible region is unbounded, an extra check is needed for the maximum/minimum value."
+    },
+    {
+      "title": "Ch 13: Probability",
+      "content": "◆ CONDITIONAL PROBABILITY: P(A|B) = P(A ∩ B) / P(B). Probability of A given that B has occurred.\n◆ MULTIPLICATION THEOREM: P(A ∩ B) = P(A) * P(B|A).\n◆ BAYES' THEOREM: A way to find the probability of a cause given the observed effect.\n◆ RANDOM VARIABLE & DISTRIBUTION: Table of all possible outcomes and their probabilities where ΣP(x) = 1.\n◆ BINOMIAL DISTRIBUTION: Used for 'n' independent trials with only two outcomes (Success/Failure).\n◆ PRACTICAL/LAB: Used in AI for spam filtering, in insurance to calculate premium rates, and in genetics to predict traits.\n◆ TIP: Use a tree diagram for multi-stage probability problems to avoid confusion."
+    }
   ],
   "10": [
-    {"title": "Algebra & Geometry", "content": "• QUADRATIC: ax^2 + bx + c = 0. Roots found via Quadratic Formula. Sum of roots = -b/a, Product = c/a.\n• AP: Arithmetic Progression. an = a + (n-1)d. Sum Sn = n/2[2a + (n-1)d].\n• TRIANGLES: Similarity criteria (AAA, SAS, SSS). Pythagoras Theorem: H^2 = P^2 + B^2."}
+    {
+      "title": "Ch 1: Real Numbers",
+      "content": "◆ CONCEPT: Understanding numbers from integers to irrationals. Euclid’s Division Lemma: a = bq + r (0 ≤ r < b).\n◆ FUNDAMENTAL THEOREM: Every composite number is a unique product of primes. HCF × LCM = Product of numbers.\n◆ IRRATIONALITY: Proof of √2, √3, √5 using the contradiction method.\n◆ DECIMAL EXPANSION: Terminating if denominator is 2ⁿ5ᵐ, otherwise non-terminating repeating.\n◆ PRACTICAL/LAB: Used in digital clock synchronization and cryptography (coding-decoding) for secure messages.\n◆ TIP: For 'Finding the largest possible size' problems, always calculate HCF."
+    },
+    {
+      "title": "Ch 2: Polynomials",
+      "content": "◆ ZEROES: Points where the graph crosses the X-axis. Geometrical interpretation of linear, quadratic, and cubic.\n◆ RELATION: α + β = -b/a, αβ = c/a. For cubic: α+β+γ = -b/a, αβ+βγ+γα = c/a, αβγ = -d/a.\n◆ DIVISION ALGORITHM: p(x) = g(x)q(x) + r(x). Finding all zeroes when two are given.\n◆ PRACTICAL/LAB: Used in trajectory calculation (path of a ball) and architectural arch designs (parabolas).\n◆ TIP: The number of zeroes is always equal to the degree of the polynomial."
+    },
+    {
+      "title": "Ch 3: Linear Equations in Two Variables",
+      "content": "◆ CONDITIONS: a1/a2 ≠ b1/b2 (Unique), a1/a2 = b1/b2 ≠ c1/c2 (No solution), a1/a2 = b1/b2 = c1/c2 (Infinite).\n◆ METHODS: Substitution, Elimination, and Cross-multiplication. Consistency and Inconsistency of systems.\n◆ WORD PROBLEMS: Speed-Time-Distance, Age, and Downstream/Upstream (u+v and u-v).\n◆ PRACTICAL/LAB: Used by economists to find 'Break-even points' where cost equals revenue.\n◆ TIP: Elimination method is the most efficient for complex calculations."
+    },
+    {
+      "title": "Ch 4: Quadratic Equations",
+      "content": "◆ STANDARD FORM: ax² + bx + c = 0. Quadratic Formula: x = [-b ± √(b²-4ac)] / 2a.\n◆ DISCRIMINANT (D): b² - 4ac. D > 0 (Distinct), D = 0 (Equal), D < 0 (No Real Roots).\n◆ METHODS: Factorization (splitting middle term), completing the square, and using D.\n◆ PRACTICAL/LAB: Used in calculating the area of plots, signal processing, and lens designs in optics.\n◆ TIP: If D is a perfect square, the roots will always be rational numbers."
+    },
+    {
+      "title": "Ch 5: Arithmetic Progressions (AP)",
+      "content": "◆ FORMULAS: aₙ = a + (n-1)d. Sₙ = n/2 [2a + (n-1)d]. Common difference 'd' is constant.\n◆ SELECTION: 3 terms (a-d, a, a+d). 4 terms (a-3d, a-d, a+d, a+3d).\n◆ PRACTICAL/LAB: Used in calculating loan EMI payments, pyramid structures, and biological patterns (growth).\n◆ TIP: If n-th term is linear in n, it's an AP. If Sₙ is quadratic in n, it's an AP."
+    },
+    {
+      "title": "Ch 6: Triangles",
+      "content": "◆ SIMILARITY: SSS, AAA, SAS. Basic Proportionality Theorem (BPT) and its converse.\n◆ THEOREMS: Ratio of areas = (Side1/Side2)². Pythagoras Theorem (H² = P² + B²).\n◆ PRACTICAL/LAB: Used in 'Thales' shadow method to find the height of pyramids/towers without climbing.\n◆ TIP: All circles and all squares are always similar to each other."
+    },
+    {
+      "title": "Ch 7: Coordinate Geometry",
+      "content": "◆ DISTANCE: √[(x₂-x₁)² + (y₂-y₁)²]. Section: [(m₁x₂+m₂x₁)/(m₁+m₂), (m₁y₂+m₂y₁)/(m₁+m₂)].\n◆ AREA: ½ |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)|. If Area = 0, points are collinear.\n◆ PRACTICAL/LAB: Basis of GPS navigation, Google Maps, and pixel placement in computer screens.\n◆ TIP: Centroid of a triangle is the average of its x and y coordinates."
+    },
+    {
+      "title": "Ch 8: Introduction to Trigonometry",
+      "content": "◆ RATIOS: sin=P/H, cos=B/H, tan=P/B. Identities: sin²θ+cos²θ=1, 1+tan²θ=sec²θ, 1+cot²θ=cosec²θ.\n◆ PRACTICAL/LAB: Used in satellite communications, sound wave analysis, and oceanography to measure tides.\n◆ LOGIC: Every trigonometric ratio can be converted to any other ratio using identity formulas.\n◆ TIP: Use the 'Super Hexagon' trick to remember all identities easily.\n"
+    },
+    {
+      "title": "Ch 9: Some Applications of Trigonometry",
+      "content": "◆ CONCEPTS: Angle of Elevation (looking up), Angle of Depression (looking down). Height = Base × tanθ.\n◆ PRACTICAL/LAB: Used by pilots for landing approach angles and by foresters to measure tree heights.\n◆ STEP: Always draw the ground line (horizontal) and the line of sight (hypotenuse) first.\n◆ TIP: For 45°, Height always equals the Distance from the base."
+    },
+    {
+      "title": "Ch 10: Circles",
+      "content": "◆ PROPERTIES: Tangent is perpendicular to the radius. Tangents from an external point are equal in length.\n◆ THEOREM: Angle between two tangents is supplementary to the angle between the radii.\n◆ PRACTICAL/LAB: Used in manufacturing gears, pulleys, and calculating the rotation speed of wheels.\n◆ TIP: A tangent never enters the interior of a circle; it only kisses the surface."
+    },
+    {
+      "title": "Ch 11: Areas Related to Circles",
+      "content": "◆ FORMULAS: Sector = (θ/360)πr². Segment = Sector Area - Triangle Area. Arc = (θ/360)2πr.\n◆ PRACTICAL/LAB: Design of circular gardens, calculating the coverage of a car wiper or a water sprinkler.\n◆ LOGIC: A circle is just an infinite-sided polygon with a constant radius.\n◆ TIP: Area of a circle is 4 times the area of its quadrant."
+    },
+    {
+      "title": "Ch 12: Surface Areas and Volumes",
+      "content": "◆ SHAPES: Combination of solids. Frustum of a cone (Bucket). Volume of sphere = 4/3 πr³.\n◆ CONVERSION: When one shape is melted to another, Volume remains constant (V1 = V2).\n◆ PRACTICAL/LAB: Used in packaging industries to find the minimum cardboard needed (TSA) to hold a liquid (Vol).\n◆ TIP: In TSA of combined solids, don't add the areas of faces that are hidden."
+    },
+    {
+      "title": "Ch 13: Statistics",
+      "content": "◆ MEASURES: Mean (Σfx/Σf), Median (l+[(n/2-cf)/f]h), Mode (l+[(f1-f0)/(2f1-f0-f2)]h).\n◆ EMPIRICAL: 3 Median = Mode + 2 Mean. Ogives (Less than/More than graphs).\n◆ PRACTICAL/LAB: Used by insurance companies for risk calculation and by retailers for inventory management.\n◆ TIP: Median is the only measure that doesn't get affected much by extreme outliers."
+    },
+    {
+      "title": "Ch 14: Probability",
+      "content": "◆ BASICS: P(E) = Favorable/Total. P(E) + P(not E) = 1. Range is 0 to 1.\n◆ EXPERIMENTS: Dice (6 outcomes), Coins (2ⁿ outcomes), Cards (52 total).\n◆ PRACTICAL/LAB: Used in weather forecasting (80% chance of rain) and the stock market for risk analysis.\n◆ TIP: 'At least' means that number or greater; 'At most' means that number or smaller."
+    }
+  ],
+  "11": [
+    {
+      "title": "Ch 1: Sets",
+      "content": "◆ DEFINITION: Well-defined collection. Roster form vs Set-builder form. Subsets (2ⁿ).\n◆ OPERATIONS: Union (A∪B), Intersection (A∩B), Difference (A-B). Venn Diagrams.\n◆ DE-MORGAN: (A∪B)' = A'∩B'. n(A∪B) = n(A) + n(B) - n(A∩B).\n◆ PRACTICAL/LAB: Used in database management (SQL joins) and grouping users in social media algorithms.\n◆ TIP: Power set of an empty set is not empty; it contains {∅}."
+    },
+    {
+      "title": "Ch 2: Relations and Functions",
+      "content": "◆ CONCEPTS: Cartesian Product A×B. Relation is a subset of A×B. Function: Each input → Unique output.\n◆ TYPES: Modulus |x|, Signum x/|x|, Greatest Integer [x], Identity, Constant.\n◆ PRACTICAL/LAB: Every computer program is a function where you give input and get a specific output.\n◆ TIP: Use the Vertical Line Test on a graph; if it crosses twice, it's not a function."
+    },
+    {
+      "title": "Ch 3: Trigonometric Functions",
+      "content": "◆ TRIGONOMETRY TABLE (Full Values):\n  - 0°: sin=0, cos=1, tan=0, cosec=ND, sec=1, cot=ND\n  - 30°: sin=1/2, cos=√3/2, tan=1/√3, cosec=2, sec=2/√3, cot=√3\n  - 45°: sin=1/√2, cos=1/√2, tan=1, cosec=√2, sec=√2, cot=1\n  - 60°: sin=√3/2, cos=1/2, tan=√3, cosec=2/√3, sec=2, cot=1/√3\n  - 90°: sin=1, cos=0, tan=ND, cosec=1, sec=ND, cot=0\n◆ PRACTICAL/LAB: Used in oscillating systems like guitar strings, pendulums, and AC current waves.\n◆ FORMULAS: sin(A+B), cos(A+B), tan(A+B), 2x and 3x formulas.\n◆ TIP: 'ASTC' (After To School To College) helps remember positive signs in quadrants.\n"
+    },
+    {
+      "title": "Ch 4: Complex Numbers & Quadratic Equations",
+      "content": "◆ IOTA: i = √-1. z = a + ib. Polar Form: r(cosθ + i sinθ). Modulus |z| = √(a²+b²).\n◆ PRACTICAL/LAB: Electrical engineers use complex numbers to calculate 'Impedance' in AC circuits.\n◆ QUADRATIC: Solving ax²+bx+c=0 for negative discriminants using 'i'.\n◆ TIP: Always rationalize a complex number in the denominator by multiplying with its conjugate."
+    },
+    {
+      "title": "Ch 5: Linear Inequalities",
+      "content": "◆ RULES: Shading the feasible region. Flipping signs when multiplying by negative values.\n◆ PRACTICAL/LAB: Used in logistics to find 'Minimum shipping time' or 'Maximum load' a truck can carry.\n◆ GRAPH: Solution is an area, not a point. Broken line for <, >, solid line for ≤, ≥.\n◆ TIP: Always test (0,0) to determine which side of the line to shade."
+    },
+    {
+      "title": "Ch 6: Permutations and Combinations",
+      "content": "◆ FORMULAS: ⁿPᵣ = n!/(n-r)! (Arrangement). ⁿCᵣ = n!/r!(n-r)! (Selection).\n◆ PRACTICAL/LAB: Creating secure passwords, arranging books, and picking teams in sports.\n◆ LOGIC: Permutation is for 'Order', Combination is for 'Choice'.\n◆ TIP: ⁿCᵣ = ⁿCₙ₋ᵣ. This makes calculating ¹⁰⁰C₉₈ as easy as ¹⁰⁰C₂."
+    },
+    {
+      "title": "Ch 7: Binomial Theorem",
+      "content": "◆ EXPANSION: (a+b)ⁿ = ΣⁿCᵣ aⁿ⁻ʳ bʳ. Total terms = n+1.\n◆ PRACTICAL/LAB: Used in probability theory and for calculating interest rates in banking models.\n◆ MIDDLE TERM: One if n is even, two if n is odd. Pascal’s Triangle for coefficients.\n◆ TIP: The sum of powers of 'a' and 'b' in every term always equals n."
+    },
+    {
+      "title": "Ch 8: Sequences and Series",
+      "content": "◆ AP & GP: aₙ = arⁿ⁻¹. Sₙ = a(rⁿ-1)/(r-1). Infinite GP: S∞ = a/(1-r) for |r|<1.\n◆ MEANS: Arithmetic Mean (AM) and Geometric Mean (GM). Relation: AM ≥ GM.\n◆ PRACTICAL/LAB: Used in calculating population growth, interest rates, and radioactive decay.\n◆ TIP: If a sequence grows very fast, try checking for a common ratio (GP)."
+    },
+    {
+      "title": "Ch 9: Straight Lines",
+      "content": "◆ SLOPE (m): tanθ. Point-slope: y-y₁=m(x-x₁). Slope-intercept: y=mx+c. Intercept: x/a + y/b = 1.\n◆ DISTANCE: From point to line = |ax₁+by₁+c|/√(a²+b²).\n◆ PRACTICAL/LAB: Architects use line equations for roof slopes and civil engineers for road gradients.\n◆ TIP: The angle between two lines depends only on their slopes (m1 and m2)."
+    },
+    {
+      "title": "Ch 10: Conic Sections",
+      "content": "◆ SHAPES: Circle, Parabola, Ellipse, Hyperbola. Focus, directrix, and eccentricity (e).\n◆ PRACTICAL/LAB: Elliptical orbits of planets, parabolic headlight reflectors, and hyperbolic cooling towers.\n◆ LOGIC: Every conic is a section of a cone cut at a specific angle.\n◆ TIP: Eccentricity 'e' is the ratio of distance from focus to distance from directrix.\n"
+    },
+    {
+      "title": "Ch 11: 3D Geometry",
+      "content": "◆ SPACE: (x, y, z). Distance = √[(x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²]. Octants (8 total).\n◆ PRACTICAL/LAB: Used in 3D gaming, CAD design, and air traffic control to track plane height/location.\n◆ SECTION: Finding a point between two coordinates in 3D space.\n◆ TIP: If a point is in the XY plane, its Z-coordinate is always 0."
+    },
+    {
+      "title": "Ch 12: Limits and Derivatives",
+      "content": "◆ LIMITS: lim(x→0) sinx/x = 1. Derivatives: f'(x) using the First Principle.\n◆ RULES: Product (uv)' = u'v + uv', Quotient Rule, Power Rule (nxⁿ⁻¹).\n◆ PRACTICAL/LAB: Used in chemistry to find 'Instantaneous' reaction rates and in physics for velocity.\n◆ TIP: Limit represents what a function *looks* like it's going to hit, even if it's undefined there."
+    },
+    {
+      "title": "Ch 13: Statistics",
+      "content": "◆ DISPERSION: Mean Deviation, Variance (σ²), and Standard Deviation (σ).\n◆ PRACTICAL/LAB: Scientists use SD to see how much their experimental results vary from the average.\n◆ LOGIC: Variance measures the 'spread' or 'risk' in a set of data.\n◆ TIP: Standard deviation is the square root of Variance and has the same units as the data."
+    },
+    {
+      "title": "Ch 14: Probability",
+      "content": "◆ ADVANCED: Mutually Exclusive, Independent, and Exhaustive events.\n◆ FORMULA: P(A∪B) = P(A) + P(B) - P(A∩B). If independent, P(A∩B) = P(A) × P(B).\n◆ PRACTICAL/LAB: Used in genetics to predict hereditary traits and in insurance for calculating risk.\n◆ TIP: 'Independent' means one event happening does not change the chance of the other."
+    }
+  ],
+"8": [
+    { "title": "Ch 1: Rational Numbers", "content": "◆ DEFINITION: Numbers expressed as p/q (q ≠ 0).\n◆ CLOSURE: Addition, subtraction, and multiplication of rationals result in a rational number.\n◆ COMMUTATIVITY: a + b = b + a. This holds for addition and multiplication but fails for subtraction (5-3 ≠ 3-5) and division.\n◆ ASSOCIATIVITY: (a+b)+c = a+(b+c). Helps in regrouping large sums.\n◆ DISTRIBUTIVITY: a(b+c) = ab + ac. Crucial for solving brackets.\n◆ IDENTITIES: 0 is the additive identity. 1 is the multiplicative identity.\n◆ INVERSES: Additive inverse of 'x' is '-x'. Multiplicative inverse (reciprocal) of 'a/b' is 'b/a'.\n◆ BETWEEN NUMBERS: There are infinite rational numbers between any two given rational numbers.\n◆ CALCULATION TIP: Always convert mixed fractions to improper fractions first.\n◆ EXAMPLE: Find 5 numbers between 1/2 and 2/3 by making the denominator 30.\n◆ PROPERTY: Rational numbers are closed under division only if we exclude zero." },
+    { "title": "Ch 2: Linear Equations in One Variable", "content": "◆ CONCEPT: Equations with one variable having a maximum power of 1.\n◆ EQUALITY: An equation is like a balance scale; LHS must always equal RHS.\n◆ TRANSPOSING: Shifting terms. Rules: + becomes -, - becomes +, × becomes ÷, and ÷ becomes ×.\n◆ CROSS-MULTIPLICATION: Used when both sides are fractions: (a/b) = (c/d) → ad = bc.\n◆ SOLVING STEPS:\n1. Remove brackets if any.\n2. Bring variable terms (x) to one side.\n3. Bring constants to the other side.\n4. Solve to isolate x.\n◆ WORD PROBLEMS: Key phrases to note:\n- 'Sum' means (+), 'Difference' means (-).\n- 'Times' or 'Product' means (×).\n- 'Is' or 'Result' means (=).\n◆ AGE PROBLEMS: If current age is x, age 'n' years ago was (x-n) and after 'n' years will be (x+n).\n◆ DIGIT PROBLEMS: A two-digit number is represented as 10x + y." },
+    { "title": "Ch 3: Understanding Quadrilaterals", "content": "◆ CURVES: Simple closed curves made of line segments are Polygons.\n◆ CLASSIFICATION: Triangle (3), Quadrilateral (4), Pentagon (5), Hexagon (6), Heptagon (7), Octagon (8).\n◆ DIAGONALS: A line segment connecting non-consecutive vertices.\n◆ CONVEX vs CONCAVE: Convex polygons have no portions of diagonals in their exteriors.\n◆ ANGLE SUM PROPERTY:\n- Interior angles sum = (n-2) × 180°.\n- Exterior angles sum = Always 360° for any polygon.\n◆ TYPES OF QUADRILATERALS:\n1. PARALLELOGRAM: Opposite sides are equal and parallel. Diagonals bisect each other.\n2. RHOMBUS: A parallelogram where all sides are equal. Diagonals are perpendicular bisectors.\n3. RECTANGLE: A parallelogram with right angles. Diagonals are equal.\n4. SQUARE: All sides equal, all angles 90°. Diagonals are equal and perpendicular bisectors.\n5. KITE: Two pairs of equal adjacent sides.\n6. TRAPEZIUM: One pair of parallel sides." },
+    { "title": "Ch 4: Data Handling", "content": "◆ DATA COLLECTION: Gathering information for specific purposes.\n◆ TALLY MARKS: Groups of 5 (|||| with a slash) to count frequency easily.\n◆ GROUPING: Used for large data. Class intervals (e.g., 0-10, 10-20).\n◆ TERMS: Lower limit (start of interval), Upper limit (end of interval).\n◆ HISTOGRAM: A bar graph for grouped data where bars have no gaps.\n◆ PIE CHART: A circle graph showing components of a whole.\n- Central Angle = (Value / Total) × 360°.\n◆ PROBABILITY: Measure of uncertainty.\n- Formula: P(E) = Number of outcomes / Total possible outcomes.\n- If a coin is tossed, P(Heads) = 1/2.\n- If a die is thrown, P(getting 6) = 1/6.\n- Probability is always between 0 and 1." },
+    { "title": "Ch 5: Squares and Square Roots", "content": "◆ SQUARE NUMBER: A number multiplied by itself (n²).\n◆ PROPERTIES:\n- Ending digits: Must be 0, 1, 4, 5, 6, or 9.\n- Numbers ending in 2, 3, 7, or 8 are NEVER perfect squares.\n- Squares of even numbers are even; odd are odd.\n◆ PYTHAGOREAN TRIPLET: (2m, m²-1, m²+1).\n◆ SQUARE ROOT (√): The inverse operation of squaring.\n◆ METHODS:\n1. REPEATED SUBTRACTION: Subtracting 1, 3, 5, 7... until zero.\n2. PRIME FACTORISATION: Making pairs of prime factors.\n3. LONG DIVISION: Best for large numbers and decimals.\n◆ ESTIMATION: Guessing square roots of non-perfect squares by finding nearest perfect squares.\n◆ FACT: The sum of the first 'n' odd numbers is n²." },
+    { "title": "Ch 6: Cubes and Cube Roots", "content": "◆ CUBE: A number raised to power 3 (n³).\n◆ PROPERTIES:\n- Cubes of numbers ending in 1 end in 1.\n- Cubes of numbers ending in 2 end in 8, and vice versa.\n- Cubes of numbers ending in 3 end in 7, and vice versa.\n◆ HARDY-RAMANUJAN NUMBER: 1729 is the smallest number expressible as the sum of two cubes in two different ways (1³+12³ and 9³+10³).\n◆ CUBE ROOT (∛): Inverse of cube. Finding 'x' such that x³ = y.\n◆ METHOD: Prime Factorisation is the most reliable way (Make groups of 3 identical factors).\n◆ ESTIMATION METHOD: Split digits from right in groups of 3 and find digits based on unit place properties.\n◆ VOLUME CONNECTION: The volume of a cube with side 's' is s³." },
+    { "title": "Ch 7: Comparing Quantities", "content": "◆ RATIO: Comparison of two quantities of the same unit.\n◆ PERCENTAGE: A ratio where the second quantity is 100.\n◆ PROFIT AND LOSS:\n- Profit = SP - CP | Loss = CP - SP.\n- Profit % = (Profit/CP) × 100.\n◆ DISCOUNT: Reduction in Marked Price (MP). SP = MP - Discount.\n◆ SALES TAX/GST: Added to the bill amount.\n◆ COMPOUND INTEREST (CI): Interest on previous interest.\n- Amount (A) = P(1 + R/100)ⁿ.\n- CI = A - P.\n◆ POPULATION PROBLEMS: Use CI formula for growth or depreciation (R is negative for depreciation)." },
+    { "title": "Ch 8: Algebraic Expressions and Identities", "content": "◆ TERMS: Parts of an expression separated by + or -.\n◆ COEFFICIENT: The numerical factor of a term.\n◆ TYPES: Monomial (1 term), Binomial (2), Trinomial (3), Polynomial (many).\n◆ LIKE TERMS: Terms having identical algebraic factors (e.g., 2x and 5x).\n◆ MULTIPLICATION: Term by term using the distributive law.\n◆ STANDARD IDENTITIES:\n1. (a+b)² = a² + 2ab + b²\n2. (a-b)² = a² - 2ab + b²\n3. (a+b)(a-b) = a² - b²\n4. (x+a)(x+b) = x² + (a+b)x + ab\n◆ USAGE: These identities help in mental calculation of squares like 101² = (100+1)²." },
+    { "title": "Ch 9: Mensuration", "content": "◆ AREA OF PLANE FIGURES:\n- Trapezium = ½ × (Sum of parallel sides) × h.\n- Rhombus = ½ × d1 × d2.\n- General Quadrilateral = ½ × d × (h1 + h2).\n◆ SURFACE AREA (3D):\n- Cuboid = 2(lb + bh + hl).\n- Cube = 6a².\n- Cylinder = 2πr(r + h).\n◆ VOLUME (3D):\n- Cuboid = l × b × h.\n- Cube = a³.\n- Cylinder = πr²h.\n◆ UNITS: 1 cm³ = 1 mL, 1000 cm³ = 1 Litre, 1 m³ = 1000 Litres.\n◆ CONCEPT: Volume is the space occupied, capacity is the amount it can hold." },
+    { "title": "Ch 10: Exponents and Powers", "content": "◆ NEGATIVE EXPONENTS: a⁻ᵐ = 1/aᵐ.\n◆ LAWS OF EXPONENTS:\n1. aᵐ × aⁿ = aᵐ⁺ⁿ.\n2. aᵐ ÷ aⁿ = aᵐ⁻ⁿ.\n3. (aᵐ)ⁿ = aᵐⁿ.\n4. aᵐ × bᵐ = (ab)ᵐ.\n5. (a/b)ᵐ = aᵐ/bᵐ.\n6. a⁰ = 1.\n◆ STANDARD FORM: Expressing very large/small numbers as k × 10ⁿ (where 1 ≤ k < 10).\n- 0.000007 = 7 × 10⁻⁶.\n- 560000 = 5.6 × 10⁵.\n◆ SCIENTIFIC NOTATION: Used by scientists to handle cosmic or microscopic measurements." },
+    { "title": "Ch 11: Direct and Inverse Proportions", "content": "◆ DIRECT PROPORTION: If x increases, y also increases in a way that x/y remains constant (k).\n- Example: More pens bought → more cost.\n- Formula: x₁/y₁ = x₂/y₂.\n◆ INVERSE PROPORTION: If x increases, y decreases so that x × y remains constant (k).\n- Example: More workers → less time to finish a job.\n- Formula: x₁y₁ = x₂y₂.\n◆ APPLICATIONS: Used in maps (scale), recipes, speed-time-distance, and bank interests." },
+    { "title": "Ch 12: Factorisation", "content": "◆ CONCEPT: Writing an expression as a product of its factors.\n◆ METHODS:\n1. COMMON FACTORS: 2x + 4 = 2(x + 2).\n2. REGROUPING: Arrange terms to find common brackets.\n3. USING IDENTITIES: a² - b² = (a+b)(a-b).\n4. SPLITTING MIDDLE TERM: For ax² + bx + c, find numbers whose sum is b and product is ac.\n◆ DIVISION: Divide monomials by dividing coefficients and subtracting powers.\n◆ POLYNOMIAL DIVISION: (Polynomial) / (Monomial) → divide each term separately.\n◆ ERROR FINDING: Common mistakes like (x-3)² = x² - 9 (False, middle term 6x is missing)." },
+    { "title": "Ch 13: Introduction to Graphs", "content": "◆ PURPOSE: Visual representation of data to show trends.\n◆ LINE GRAPH: Shows data that changes continuously over time.\n◆ COORDINATES: (x, y) represent a point.\n- X-axis (Horizontal): Abscissa.\n- Y-axis (Vertical): Ordinate.\n◆ ORIGIN: The point (0, 0) where axes cross.\n◆ LINEAR GRAPH: A graph that is a whole unbroken line.\n◆ INDEPENDENT VARIABLE: Plotted on x-axis (e.g., Time).\n◆ DEPENDENT VARIABLE: Plotted on y-axis (e.g., Distance).\n◆ SCALE: Choosing a proper unit representation for large numbers." }
   ],
   "9": [
-    {"title": "Number System & Mensuration", "content": "• NUMBERS: Rational, Irrational, and Real numbers. Laws of exponents apply.\n• POLYNOMIALS: Remainder and Factor theorems. (a+b)^2 = a^2+2ab+b^2.\n• AREA: Heron's Formula √s(s-a)(s-b)(s-c). Surface area of spheres (4πr^2) and cones (πrl)."}
-  ],
-  "8": [
-    {"title": "Math Fundamentals", "content": "• RATIONAL NUMBERS: Closure, Commutative, and Associative properties.\n• ALGEBRA: Solving linear equations in one variable. Powers and Exponents: a^m * a^n = a^(m+n).\n• GEOMETRY: Properties of quadrilaterals (Parallelogram, Rhombus, Rectangle, Square)."}
+    { "title": "Ch 1: Number Systems", "content": "◆ RATIONALS: Terminating or non-terminating recurring decimals.\n◆ IRRATIONALS: Non-terminating non-recurring decimals (√2, √3, π).\n◆ REAL NUMBERS: Every point on the number line corresponds to a unique real number.\n◆ REPRESENTATION: Using Successive Magnification to locate numbers like 3.765.\n◆ RATIONALISATION: Converting the denominator to a rational number by multiplying with the conjugate.\n- Conjugate of (a+√b) is (a-√b).\n◆ LAWS OF EXPONENTS: Extended to real number bases and rational exponents." },
+    { "title": "Ch 2: Polynomials", "content": "◆ DEGREE: The highest power of x. Linear (1), Quadratic (2), Cubic (3).\n◆ ZEROES: Roots of the polynomial equation p(x) = 0.\n◆ REMAINDER THEOREM: p(x) divided by (x-a) gives remainder p(a).\n◆ FACTOR THEOREM: If p(a) = 0, then (x-a) is a factor.\n◆ IDENTITIES:\n- (x+y+z)² = x²+y²+z²+2xy+2yz+2zx.\n- (x+y)³ = x³+y³+3xy(x+y).\n- x³+y³+z³-3xyz = (x+y+z)(x²+y²+z²-xy-yz-zx)." },
+    { "title": "Ch 3: Coordinate Geometry", "content": "◆ CARTESIAN SYSTEM: Perpendicular axes dividing plane into 4 Quadrants.\n◆ QUADRANTS: I (+,+), II (-,+), III (-,-), IV (+,-).\n◆ PLOTTING: To plot (3, -2), move 3 units right on x and 2 units down on y.\n◆ AXIS POINTS: Any point on x-axis has y=0 (x, 0). Any point on y-axis has x=0 (0, y).\n◆ ORIGIN: Point where x and y axes meet (0,0)." },
+    { "title": "Ch 4: Linear Equations in Two Variables", "content": "◆ FORM: ax + by + c = 0.\n◆ SOLUTIONS: A linear equation in two variables has INFINITE solutions.\n◆ GRAPH: Every linear equation in two variables represents a straight line.\n◆ SPECIAL LINES: x = a is a line parallel to y-axis. y = b is a line parallel to x-axis.\n◆ ORIGIN LINE: y = mx always passes through the origin (0,0)." },
+    { "title": "Ch 5: Euclid's Geometry", "content": "◆ DEFINITIONS: Point, Line, Plane (as defined by Euclid).\n◆ AXIOMS: Common notions like 'Things which are equal to the same thing are equal to one another'.\n◆ POSTULATES: Specifically for geometry (e.g., All right angles are equal).\n◆ FIFTH POSTULATE: The famous parallel postulate.\n◆ THEOREM: Two distinct lines cannot have more than one point in common." },
+    { "title": "Ch 6: Lines and Angles", "content": "◆ BASIC TERMS: Ray, Segment, Collinear points.\n◆ ANGLES: Acute (<90°), Right (90°), Obtuse (>90°), Reflex (>180°).\n◆ LINEAR PAIR: Sum of adjacent angles on a straight line is 180°.\n◆ VERTICALLY OPPOSITE: When lines intersect, opposite angles are equal.\n◆ PARALLEL LINES: Alternate interior angles are equal; Corresponding angles are equal.\n◆ INTERIOR ANGLES: Consecutive interior angles are supplementary (sum = 180°)." },
+    { "title": "Ch 7: Triangles", "content": "◆ CONGRUENCE: Same shape and same size (≅).\n◆ CRITERIA: SAS, ASA, SSS, RHS, AAS.\n◆ ISOSCELES PROPERTIES: Angles opposite to equal sides are equal.\n◆ INEQUALITIES: Side opposite to larger angle is longer. Sum of two sides > third side.\n◆ CPCT: Corresponding Parts of Congruent Triangles are equal." },
+    { "title": "Ch 8: Quadrilaterals", "content": "◆ ANGLE SUM: Sum of 4 angles is 360°.\n◆ PARALLELOGRAM: Diagonals divide it into two congruent triangles.\n◆ PROPERTIES: Opp sides equal, opp angles equal, diagonals bisect.\n◆ MID-POINT THEOREM: Line joining mid-points of two sides is parallel to 3rd side and half of it.\n◆ CONVERSE: Line through mid-point of one side parallel to 2nd side bisects 3rd side." },
+    { "title": "Ch 9: Circles", "content": "◆ CHORDS: Equal chords subtend equal angles at the center.\n◆ PERPENDICULAR: From center to chord bisects the chord.\n◆ RADIUS: Equal chords are equidistant from the center.\n◆ CIRCLE THEOREM: Angle at center is double the angle at circumference by same arc.\n◆ CYCLIC QUADRILATERAL: Sum of opposite angles is 180°." },
+    { "title": "Ch 10: Heron's Formula", "content": "◆ AREA: Used for triangles when height is not known.\n◆ SEMI-PERIMETER: s = (a+b+c)/2.\n◆ FORMULA: Area = √[s(s-a)(s-b)(s-c)].\n◆ USAGE: Effective for scalene triangles and for finding area of quadrilaterals by splitting into triangles." },
+    { "title": "Ch 11: Surface Areas and Volumes", "content": "◆ CONE: Slant height l = √(r²+h²). CSA = πrl. TSA = πr(l+r). Vol = 1/3 πr²h.\n◆ SPHERE: SA = 4πr². Vol = 4/3 πr³.\n◆ HEMISPHERE: CSA = 2πr². TSA = 3πr². Vol = 2/3 πr³.\n◆ DENSITY: Mass = Volume × Density." },
+    { "title": "Ch 12: Statistics", "content": "◆ DATA PRESENTATION: Frequency Distribution Tables.\n◆ BAR GRAPH: For categorical data.\n◆ HISTOGRAM: For continuous class intervals.\n◆ FREQUENCY POLYGON: Joining mid-points of histogram bars.\n◆ MEASURES OF CENTRAL TENDENCY: Mean (Average), Median (Middle), Mode (Most frequent)." }
   ]
 }
+
+
+
