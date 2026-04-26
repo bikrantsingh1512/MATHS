@@ -174,32 +174,55 @@
             document.getElementById('view-title').innerText = view.toUpperCase();
             
             if(view === 'tutors') {
-                container.innerHTML = `
-                    <div class="space-y-6 animate-pop">
-                        <div class="glass p-5 rounded-3xl">
-                            <select id="t-class" onchange="handleTutorClass()" class="w-full p-4 rounded-2xl font-bold outline-none bg-transparent">
-                                <option value="">Select Class</option>
-                                <option value="8">Class 8th</option>
-                                <option value="9">Class 9th</option>
-                                <option value="10">Class 10th</option>
-                                <option value="11">Class 11th</option>
-                                <option value="12">Class 12th</option>
-                            </select>
-                        </div>
-                        <div id="stream-box" class="hidden glass p-5 rounded-3xl">
-                            <select id="t-stream" onchange="handleTutorStream()" class="w-full p-4 rounded-2xl font-bold outline-none bg-transparent">
-                                <option value="">Choose Stream</option>
-                                <option value="PCM">PCM</option>
-                                <option value="PCB">PCB</option>
-                                <option value="Commerce">Commerce</option>
-                                <option value="Humanities">Humanities</option>
-                            </select>
-                        </div>
-                        <div id="subject-box" class="hidden glass p-5 rounded-3xl">
-                            <select id="t-subject" onchange="showFinalTutors()" class="w-full p-4 rounded-2xl font-bold outline-none bg-transparent"></select>
-                        </div>
-                        <div id="tutor-list" class="space-y-4"></div>
-                    </div>${getFooter()}`;
+             container.innerHTML = `
+        <div class="space-y-6 animate-pop">
+            
+            <div class="glass p-6 rounded-[2.5rem] bg-gradient-to-br from-yellow-500/20 to-orange-600/20 border-2 border-yellow-500/30">
+                <div class="flex items-center gap-4">
+                    <div class="bg-yellow-500 p-3 rounded-2xl">
+                        <i data-lucide="lightbulb" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-black text-yellow-500 uppercase tracking-tighter">Nexus Self-Study Tip</h3>
+                        <p class="text-[11px] font-bold leading-tight text-[var(--text-main)]">"Self-study is very important. Videos can explain concepts, but only practice makes you a Master!"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-[3rem] border-b-8 border-red-500 text-center">
+                <i data-lucide="youtube" class="w-16 h-16 mx-auto text-red-500 mb-2"></i>
+                <h2 class="text-xl font-bold">Best YouTube Tutors</h2>
+            </div>
+
+            <div class="glass p-5 rounded-3xl">
+                <select id="t-class" onchange="handleTutorClass()" class="w-full p-4 rounded-2xl font-bold outline-none bg-transparent">
+                    <option value="">Select Class</option>
+                    <option value="8">Class 8th</option>
+                    <option value="9">Class 9th</option>
+                    <option value="10">Class 10th</option>
+                    <option value="11">Class 11th</option>
+                    <option value="12">Class 12th</option>
+                </select>
+            </div>
+
+            <div id="stream-box" class="hidden glass p-5 rounded-3xl">
+                <select id="t-stream" onchange="handleTutorStream()" class="w-full p-4 rounded-2xl font-bold outline-none bg-transparent">
+                    <option value="">Choose Stream</option>
+                    <option value="PCM">PCM (Science)</option>
+                    <option value="PCB">PCB (Science)</option>
+                    <option value="Commerce">Commerce</option>
+                    <option value="Humanities">Humanities</option>
+                </select>
+            </div>
+
+            <div id="subject-box" class="hidden glass p-5 rounded-3xl">
+                <select id="t-subject" onchange="showFinalTutors()" class="w-full p-4 rounded-2xl font-bold outline-none bg-transparent"></select>
+            </div>
+
+            <div id="tutor-list" class="space-y-4"></div>
+
+        </div>${getFooter()}`;
+            
             } else if(view === 'doubt') {
                 container.innerHTML = `<div class="glass p-8 rounded-[3rem] space-y-4 animate-pop"><textarea id="m-input" class="w-full bg-transparent outline-none text-xl p-2 font-bold" rows="3" placeholder="Enter query..."></textarea><button onclick="smartSolve()" class="w-full card-grad py-5 rounded-2xl font-black">SOLVE</button></div><div id="ans-box" class="hidden mt-6"></div>${getFooter()}`;
             } else if(view === 'notes') {
