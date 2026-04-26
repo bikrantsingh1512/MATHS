@@ -1,34 +1,78 @@
 {
-  "syllabus": {
-    "8": [
-      { "title": "1. Rational Numbers", "content": "◆ Marks: 5 | Focus: Properties & Distributive Law." },
-      { "title": "2. Linear Equations", "content": "◆ Marks: 8 | Focus: Word problems on ages & numbers." }
-    ],
-    "9": [
-      { "title": "1. Number Systems", "content": "◆ Marks: 8 | Focus: Rationalisation & Laws of Exponents." },
-      { "title": "2. Polynomials", "content": "◆ Marks: 12 | Focus: Factor Theorem & Identities." },
-      { "title": "3. Coordinate Geometry", "content": "◆ Marks: 4 | Focus: Plotting points & Quadrants." },
-      { "title": "4. Linear Equations", "content": "◆ Marks: 6 | Focus: Graphing lines & solutions." },
-      { "title": "5. Euclid’s Geometry", "content": "◆ Marks: 2 | Focus: Axioms & Postulates." },
-      { "title": "6. Lines and Angles", "content": "◆ Marks: 7 | Focus: Alternate & Vertically opposite angles." },
-      { "title": "7. Triangles", "content": "◆ Marks: 8 | Focus: Congruence rules (SAS, ASA)." },
-      { "title": "8. Quadrilaterals", "content": "◆ Marks: 8 | Focus: Mid-point Theorem." },
-      { "title": "9. Circles", "content": "◆ Marks: 8 | Focus: Cyclic quadrilaterals." },
-      { "title": "10. Heron’s Formula", "content": "◆ Marks: 4 | Focus: Area of scalene triangles." },
-      { "title": "11. Surface Areas & Volumes", "content": "◆ Marks: 10 | Focus: Cones & Spheres." },
-      { "title": "12. Statistics", "content": "◆ Marks: 5 | Focus: Histograms & Mean/Median." }
-    ],
-    "10": [
-      { "title": "1. Real Numbers", "content": "◆ Marks: 6 | Focus: Proving irrationality of root 3." },
-      { "title": "2. Polynomials", "content": "◆ Marks: 4 | Focus: Relationship between zeroes & coefficients." }
-    ],
-    "11": [
-      { "title": "1. Sets", "content": "◆ Marks: 6 | Focus: Venn Diagrams & Operations." },
-      { "title": "2. Relations & Functions", "content": "◆ Marks: 6 | Focus: Domain & Range." }
-    ],
-    "12": [
-      { "title": "1. Relations & Functions", "content": "◆ Marks: 5 | Focus: Equivalence Relations." },
-      { "title": "2. Inverse Trig Functions", "content": "◆ Marks: 3 | Focus: Principal Value Branch." }
-    ]
-  }
+  "8": [
+    { "chapter": "1. Rational Numbers", "topics": "◆ Weightage: 5 Marks | Difficulty: Easy\n◆ Core Concepts: Closure, Commutativity, and Associativity. \n◆ Exam Tip: Must practice Distributive property word problems and finding 5-10 rational numbers between two fractions." },
+    { "chapter": "2. Linear Equations in One Variable", "topics": "◆ Weightage: 8 Marks | Difficulty: Medium\n◆ Core Concepts: Solving equations with variables on both sides. \n◆ Exam Tip: Focus on Application-based problems involving ages, sum of digits, and perimeter of rectangles." },
+    { "chapter": "3. Understanding Quadrilaterals", "topics": "◆ Weightage: 7 Marks | Difficulty: Medium\n◆ Core Concepts: Interior & Exterior angle sum properties. \n◆ Exam Tip: Learn the specific properties of Parallelogram, Rhombus, and Trapezium. Practice angle calculation figures." },
+    { "chapter": "4. Data Handling", "topics": "◆ Weightage: 6 Marks | Difficulty: Easy\n◆ Core Concepts: Grouped frequency distribution and Histograms. \n◆ Exam Tip: Practice drawing Pie Charts accurately using a protractor. Basic probability of 'Not an event' is important." },
+    { "chapter": "5. Squares and Square Roots", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Pythagorean triplets and Square properties. \n◆ Exam Tip: Long Division method for finding square roots of decimals is a 3-mark fixed question." },
+    { "chapter": "6. Cubes and Cube Roots", "topics": "◆ Weightage: 5 Marks | Difficulty: Easy\n◆ Core Concepts: Prime factorisation and Estimation method. \n◆ Exam Tip: Memorize cubes up to 15 for faster calculation. Focus on 'What should be multiplied/divided to make a perfect cube'." },
+    { "chapter": "7. Comparing Quantities", "topics": "◆ Weightage: 8 Marks | Difficulty: Hard\n◆ Core Concepts: Ratios, Percentages, and GST. \n◆ Exam Tip: Compound Interest (CI) calculated half-yearly is the most repeated high-weightage question." },
+    { "chapter": "8. Algebraic Expressions and Identities", "topics": "◆ Weightage: 8 Marks | Difficulty: Medium\n◆ Core Concepts: Multiplication of Binomials and Trinomials. \n◆ Exam Tip: Application of Identities: (a+b)², (a-b)², and (a+b)(a-b) for numerical calculation." },
+    { "chapter": "9. Mensuration", "topics": "◆ Weightage: 10 Marks | Difficulty: Hard\n◆ Core Concepts: Area of Trapezium & Polygons. \n◆ Exam Tip: Practice Volume and Total Surface Area (TSA) of Cylinders and Cuboids. Don't forget units (cm²/m³)." },
+    { "chapter": "10. Exponents and Powers", "topics": "◆ Weightage: 5 Marks | Difficulty: Medium\n◆ Core Concepts: Laws of negative exponents. \n◆ Exam Tip: Converting very small numbers (0.0000...) into Standard Scientific Notation is a common 2-mark question." },
+    { "chapter": "11. Direct and Inverse Proportions", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Variations and Proportionality constants. \n◆ Exam Tip: Focus on Time & Work problems and Speed-Time-Distance relations using inverse proportion." },
+    { "chapter": "12. Factorisation", "topics": "◆ Weightage: 8 Marks | Difficulty: Hard\n◆ Core Concepts: Regrouping terms and Identities. \n◆ Exam Tip: Splitting the middle term of quadratic trinomials (x²+bx+c) is the foundation for Class 9/10 math." },
+    { "chapter": "13. Introduction to Graphs", "topics": "◆ Weightage: 5 Marks | Difficulty: Easy\n◆ Core Concepts: Linear graphs and Coordinates. \n◆ Exam Tip: Practice plotting Time-Distance and Interest-Principal graphs. Identifying independent variables on X-axis." }
+  ],
+  "9": [
+    { "chapter": "1. Number Systems", "topics": "◆ Weightage: 8 Marks | Difficulty: Medium\n◆ Core Concepts: Rationalisation of denominators, Laws of exponents for real bases. \n◆ Exam Tip: Proving √x on number line and finding 'a' and 'b' in rationalization equations." },
+    { "chapter": "2. Polynomials", "topics": "◆ Weightage: 12 Marks | Difficulty: Hard\n◆ Core Concepts: Factor Theorem, Remainder Theorem, and Zeros. \n◆ Exam Tip: Practice the identity x³+y³+z³-3xyz. Factorizing cubic polynomials using trial-and-error." },
+    { "chapter": "3. Coordinate Geometry", "topics": "◆ Weightage: 4 Marks | Difficulty: Easy\n◆ Core Concepts: Cartesian plane, Quadrants, and Sign conventions. \n◆ Exam Tip: Identifying the distance of a point from the X-axis (ordinate) and Y-axis (abscissa)." },
+    { "chapter": "4. Linear Equations in Two Variables", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Writing equations in ax+by+c=0 form. \n!◆ Exam Tip: Finding at least 4 solutions for a line and plotting them on a graph to check for a straight line." },
+    { "chapter": "5. Introduction to Euclid’s Geometry", "topics": "◆ Weightage: 2 Marks | Difficulty: Easy\n◆ Core Concepts: Axioms and Postulates. \n◆ Exam Tip: Memorize the statement of the 5th Postulate (Parallel Postulate) as it is often asked in 2 marks." },
+    { "chapter": "6. Lines and Angles", "topics": "◆ Weightage: 7 Marks | Difficulty: Medium\n◆ Core Concepts: Vertically opposite, Alternate, and Corresponding angles. \n◆ Exam Tip: Focus on the Triangle Angle Sum property and exterior angle theorem proofs." },
+    { "chapter": "7. Triangles", "topics": "◆ Weightage: 8 Marks | Difficulty: Hard\n◆ Core Concepts: SAS, ASA, SSS, and RHS Congruence. \n◆ Exam Tip: Be thorough with CPCT proofs and properties of Isosceles triangles. Practice long-form proofs." },
+    { "chapter": "8. Quadrilaterals", "topics": "◆ Weightage: 8 Marks | Difficulty: Medium\n◆ Core Concepts: Mid-point Theorem and its converse. \n◆ Exam Tip: Properties of Parallelograms (diagonal bisecting each other) are frequently used in complex geometry problems." },
+    { "chapter": "9. Circles", "topics": "◆ Weightage: 8 Marks | Difficulty: Hard\n◆ Core Concepts: Angles subtended by an arc at the center vs circumference. \n◆ Exam Tip: Cyclic Quadrilateral angle sums and 'Angles in the same segment are equal' are high-priority theorems." },
+    { "chapter": "10. Heron’s Formula", "topics": "◆ Weightage: 4 Marks | Difficulty: Easy\n◆ Core Concepts: Area of triangle using semi-perimeter(s). \n◆ Exam Tip: Use Heron's formula to find the area of complex quadrilaterals by dividing them into two triangles." },
+    { "chapter": "11. Surface Areas and Volumes", "topics": "◆ Weightage: 10 Marks | Difficulty: Hard\n◆ Core Concepts: Formulae for Cone, Sphere, and Hemisphere. \n◆ Exam Tip: Ratio based problems (e.g., doubling the radius) and finding 'Capacity' in liters are common." },
+    { "chapter": "12. Statistics", "topics": "◆ Weightage: 5 Marks | Difficulty: Medium\n◆ Core Concepts: Histograms with varying base widths. \n◆ Exam Tip: Practice Frequency Polygons and understand the difference between discrete and continuous data." }
+  ],
+  "10": [
+    { "chapter": "1. Real Numbers", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Fundamental Theorem of Arithmetic (HCF × LCM = Product of Numbers). \n◆ Exam Tip: Fixed 3-mark question: Prove that √2, √3, or 5+2√3 is an irrational number." },
+    { "chapter": "2. Polynomials", "topics": "◆ Weightage: 4 Marks | Difficulty: Easy\n◆ Core Concepts: Geometrical meaning of zeros and Coefficient relation. \n◆ Exam Tip: Finding a quadratic polynomial when the sum (α+β) and product (αβ) of zeroes are given." },
+    { "chapter": "3. Pair of Linear Equations", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Elimination and Substitution methods. \n◆ Exam Tip: Conditions for Consistency (Unique, Infinite, No solution). Focus on Upstream/Downstream word problems." },
+    { "chapter": "4. Quadratic Equations", "topics": "◆ Weightage: 6 Marks | Difficulty: Hard\n◆ Core Concepts: Nature of Roots (Discriminant D=b²-4ac). \n◆ Exam Tip: Problems based on 'Train Speed' or 'Taps filling a tank' often appear in the 5-mark section." },
+    { "chapter": "5. Arithmetic Progressions (AP)", "topics": "◆ Weightage: 7 Marks | Difficulty: Medium\n◆ Core Concepts: n-th term (an) and Sum of n terms (Sn). \n◆ Exam Tip: Application problems like 'saving schemes' or 'staircase steps'. Finding the n-th term from the end." },
+    { "chapter": "6. Triangles", "topics": "◆ Weightage: 8 Marks | Difficulty: Hard\n◆ Core Concepts: Basic Proportionality Theorem (BPT) proof. \n◆ Exam Tip: Similarity criteria (AA, SAS). Practice proofs involving ratios of areas and Pythagoras application." },
+    { "chapter": "7. Coordinate Geometry", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Distance, Section, and Midpoint formulas. \n◆ Exam Tip: Finding the coordinates of points of Trisection or the ratio 'k:1' when a line segment is divided." },
+    { "chapter": "8. Trigonometry", "topics": "◆ Weightage: 8 Marks | Difficulty: Hard\n◆ Core Concepts: Trig ratios of 30°, 45°, 60°. \n◆ Exam Tip: Proving Identities using sin²θ + cos²θ = 1. Transforming LHS to RHS is a must-practice skill." },
+    { "chapter": "9. Heights and Distances", "topics": "◆ Weightage: 4 Marks | Difficulty: Hard\n◆ Core Concepts: Angle of Elevation and Depression. \n◆ Exam Tip: Multi-step problems involving two triangles (e.g., a boat moving towards a lighthouse). Draw clear diagrams!" },
+    { "chapter": "10. Circles", "topics": "◆ Weightage: 4 Marks | Difficulty: Medium\n◆ Core Concepts: Tangents and radius perpendicularity. \n◆ Exam Tip: Prove that 'tangents from an external point are equal'. Practice questions with inscribed circles." },
+    { "chapter": "11. Areas Related to Circles", "topics": "◆ Weightage: 4 Marks | Difficulty: Medium\n◆ Core Concepts: Sector area and Segment area calculations. \n◆ Exam Tip: Finding the area of shaded regions (combinations of circles, quadrants, and triangles)." },
+    { "chapter": "12. Surface Areas and Volumes", "topics": "◆ Weightage: 6 Marks | Difficulty: Hard\n◆ Core Concepts: Combinations of solids (Cone + Hemisphere). \n◆ Exam Tip: Conservation of volume (melting one shape to form another) and Cost of painting surface areas." },
+    { "chapter": "13. Statistics", "topics": "◆ Weightage: 7 Marks | Difficulty: Medium\n◆ Core Concepts: Mean (Assumed Mean method), Median, and Mode. \n◆ Exam Tip: Finding missing frequencies when the Mean/Median is already provided is a high-yield question." },
+    { "chapter": "14. Probability", "topics": "◆ Weightage: 4 Marks | Difficulty: Easy\n◆ Core Concepts: Complementary events P(E) + P(not E) = 1. \n◆ Exam Tip: Card-based questions (Face cards, Red kings) and double-dice outcomes (36 total results)." }
+  ],
+  "11": [
+    { "chapter": "1. Sets", "topics": "◆ Weightage: 6 Marks | Difficulty: Easy\n◆ Core Concepts: Power sets, Universal sets, and Venn Diagrams. \n◆ Exam Tip: De Morgan's Laws and application of n(A∪B) = n(A) + n(B) - n(A∩B) in practical problems." },
+    { "chapter": "2. Relations and Functions", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Domain, Range, and Cartesian products. \n◆ Exam Tip: Understanding Greatest Integer Function, Modulus Function, and Signum Function graphs." },
+    { "chapter": "3. Trigonometric Functions", "topics": "◆ Weightage: 10 Marks | Difficulty: Hard\n◆ Core Concepts: General solutions and sum/difference formulas. \n◆ Exam Tip: Practice sin 3x, cos 3x formulas and converting degree measure to radian measure (π/180)." },
+    { "chapter": "4. Complex Numbers", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Iota powers, Modulus, and Conjugate. \n◆ Exam Tip: Solving quadratic equations with negative discriminants using complex numbers. Polar representation (if in syllabus)." },
+    { "chapter": "5. Linear Inequalities", "topics": "◆ Weightage: 5 Marks | Difficulty: Medium\n◆ Core Concepts: Rules of inequality (flipping signs). \n◆ Exam Tip: Graphical solution of systems of linear inequalities. Shading the correct half-plane (Feasible Region)." },
+    { "chapter": "6. Permutations and Combinations", "topics": "◆ Weightage: 7 Marks | Difficulty: Hard\n◆ Core Concepts: Factorials and Fundamental Counting Principle. \n◆ Exam Tip: Circular permutations and word arrangements with repeated letters (like 'MISSISSIPPI')." },
+    { "chapter": "7. Binomial Theorem", "topics": "◆ Weightage: 5 Marks | Difficulty: Medium\n◆ Core Concepts: Pascal's Triangle and General term (Tr+1). \n◆ Exam Tip: Finding the middle term and the term independent of 'x' in a given expansion." },
+    { "chapter": "8. Sequences and Series", "topics": "◆ Weightage: 7 Marks | Difficulty: Medium\n◆ Core Concepts: Sum of GP (Geometric Progression). \n◆ Exam Tip: Inserting Arithmetic and Geometric means between two numbers. Relationship between AM and GM." },
+    { "chapter": "9. Straight Lines", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Slope (m), Normal form, and Intercept form. \n◆ Exam Tip: Finding the angle between two lines and the perpendicular distance from a point (x,y) to a line." },
+    { "chapter": "10. Conic Sections", "topics": "◆ Weightage: 6 Marks | Difficulty: Hard\n◆ Core Concepts: Standard equations of Parabola, Ellipse, Hyperbola. \n◆ Exam Tip: Finding the focus, directrix, and latus rectum for a given conic equation." },
+    { "chapter": "11. 3D Geometry", "topics": "◆ Weightage: 4 Marks | Difficulty: Easy\n◆ Core Concepts: Coordinates in 3D space and Octants. \n◆ Exam Tip: Distance formula and Section formula applications in 3D. Finding midpoints of a triangle in space." },
+    { "chapter": "12. Limits and Derivatives", "topics": "◆ Weightage: 10 Marks | Difficulty: Hard\n◆ Core Concepts: Limits of Trigonometric and Rational functions. \n◆ Exam Tip: Proving derivatives from 'First Principle'. Mastering the product rule and quotient rule." },
+    { "chapter": "13. Statistics", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Mean deviation, Variance, and Standard Deviation. \n◆ Exam Tip: Calculating variance for grouped data. Focus on 'Coefficient of Variation' for comparison." },
+    { "chapter": "14. Probability", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Axiomatic approach and Sample spaces. \n◆ Exam Tip: Addition theorem P(A or B). Practice questions involving 'at least one' event using P(E') = 1 - P(E)." }
+  ],
+  "12": [
+    { "chapter": "1. Relations and Functions", "topics": "◆ Weightage: 5 Marks | Difficulty: Medium\n◆ Core Concepts: Reflexive, Symmetric, and Transitive. \n◆ Exam Tip: Fixed question on Equivalence Relations. Understanding Bijective (One-to-One and Onto) functions." },
+    { "chapter": "2. Inverse Trig Functions", "topics": "◆ Weightage: 3 Marks | Difficulty: Medium\n◆ Core Concepts: Principal Value Branch and Range. \n◆ Exam Tip: Simplifying inverse trig expressions. Memorize the graphs and restricted domains." },
+    { "chapter": "3. Matrices", "topics": "◆ Weightage: 5 Marks | Difficulty: Easy\n◆ Core Concepts: Matrix multiplication and Transpose. \n◆ Exam Tip: Expressing a matrix as a sum of Symmetric and Skew-symmetric matrices. Properties of scalars." },
+    { "chapter": "4. Determinants", "topics": "◆ Weightage: 5 Marks | Difficulty: Medium\n◆ Core Concepts: Adjoint (adj A) and Inverse (A⁻¹). \n◆ Exam Tip: Solving a system of 3 linear equations using Matrix Method (X = A⁻¹B). Fixed 5-mark question." },
+    { "chapter": "5. Continuity and Differentiability", "topics": "◆ Weightage: 9 Marks | Difficulty: Hard\n◆ Core Concepts: Logarithmic and Implicit differentiation. \n◆ Exam Tip: Chain rule and Second-order derivatives (d²y/dx²). Proving equations involving derivatives." },
+    { "chapter": "6. Application of Derivatives", "topics": "◆ Weightage: 6 Marks | Difficulty: Hard\n◆ Core Concepts: Rate of change, Increasing/Decreasing intervals. \n◆ Exam Tip: Word problems on Maxima and Minima (e.g., proving the radius for max volume of a cone)." },
+    { "chapter": "7. Integrals", "topics": "◆ Weightage: 10 Marks | Difficulty: Very Hard\n◆ Core Concepts: Integration by Parts and Partial Fractions. \n◆ Exam Tip: Properties of Definite Integrals (P4 - King's Property). Focus on Special Integrals of the form 1/(ax²+bx+c)." },
+    { "chapter": "8. Application of Integrals", "topics": "◆ Weightage: 6 Marks | Difficulty: Hard\n◆ Core Concepts: Area between a line and a curve. \n◆ Exam Tip: Area of bounded regions like circles, parabolas, and ellipses. Always sketch the graph first." },
+    { "chapter": "9. Differential Equations", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Order, Degree, and Integrating Factor (IF). \n◆ Exam Tip: Solving Linear Differential Equations dy/dx + Py = Q. Focus on Variable Separable form." },
+    { "chapter": "10. Vector Algebra", "topics": "◆ Weightage: 6 Marks | Difficulty: Medium\n◆ Core Concepts: Dot (Scalar) and Cross (Vector) products. \n◆ Exam Tip: Finding the projection of a vector and the area of a parallelogram using vectors. Direction Cosines." },
+    { "chapter": "11. 3D Geometry", "topics": "◆ Weightage: 8 Marks | Difficulty: Hard\n◆ Core Concepts: Vector/Cartesian equations of a line. \n◆ Exam Tip: Fixed question on Shortest Distance between two skew lines. Angle between two lines." },
+    { "chapter": "12. Linear Programming", "topics": "◆ Weightage: 5 Marks | Difficulty: Medium\n◆ Core Concepts: Corner Point method and Feasible Region. \n◆ Exam Tip: Formulating LPP from word problems. Finding the Z-max or Z-min at the vertices of the shaded region." },
+    { "chapter": "13. Probability", "topics": "◆ Weightage: 8 Marks | Difficulty: Hard\n◆ Core Concepts: Conditional Probability and Bayes' Theorem. \n◆ Exam Tip: Fixed 4-5 mark question on Bayes' Theorem. Practice Random Variables and Mean calculation." }
+  ]
 }
