@@ -1,0 +1,74 @@
+{
+  "8": {
+    "Maths": [{"name": "Magnet Brains", "link": "#"}, {"name": "LearnWithMansi", "link": "#"}],
+    "Science": [{"name": "Physics Wallah Foundation", "link": "#"}],
+    "English": [{"name": "Dear Sir", "link": "#"}],
+    "Hindi": [{"name": "Hindi Adhyapak", "link": "#"}],
+    "SST": [{"name": "Social School", "link": "#"}]
+  },
+  "9": {
+    "Maths": [{"name": "Green Board", "link": "#"}, {"name": "LearnWithMansi", "link": "#"}],
+    "Science": [{"name": "Prashant Kirad", "link": "#"}, {"name": "Science aur Fun", "link": "#"}],
+    "English": [{"name": "English Baba", "link": "#"}],
+    "Hindi": [{"name": "Hindi Adhyapak", "link": "#"}],
+    "SST": [{"name": "Social School", "link": "#"}]
+  },
+  "10": {
+    "Maths": [{"name": "Green Board", "link": "#"}, {"name": "Physics Wallah", "link": "#"}],
+    "Science": [{"name": "Prashant Kirad", "link": "#"}, {"name": "EDUMANTRA", "link": "#"}],
+    "SST": [{"name": "Digraj Singh Rajput", "link": "#"}],
+    "Hindi": [{"name": "Hindi Adhyapak", "link": "#"}],
+    "English": [{"name": "Dear Sir", "link": "#"}],
+    "GK": [{"name": "StudyIQ", "link": "#"}]
+  },
+  "11": {
+    "PCM": {
+      "Physics": [{"name": "Alakh Pandey (PW)", "link": "#"}],
+      "Chemistry": [{"name": "Pankaj Sir", "link": "#"}, {"name": "Bharat Panchal", "link": "#"}],
+      "Maths": [{"name": "Neha Agrawal", "link": "#"}],
+      "English": [{"name": "Shipra Mishra", "link": "#"}],
+      "Computer Science": [{"name": "Anjali Luthra", "link": "#"}]
+    },
+    "PCB": {
+      "Physics": [{"name": "MR Sir", "link": "#"}],
+      "Chemistry": [{"name": "Sourabh Raina", "link": "#"}],
+      "Biology": [{"name": "Samapti Mam", "link": "#"}],
+      "English": [{"name": "Shipra Mishra", "link": "#"}]
+    },
+    "Commerce": {
+      "Accounts": [{"name": "Rajat Arora", "link": "#"}],
+      "BST": [{"name": "Sunil Panda", "link": "#"}],
+      "Economics": [{"name": "CA Parag Gupta", "link": "#"}]
+    },
+    "Humanities": {
+      "History": [{"name": "Human-At-Ease", "link": "#"}],
+      "Pol Science": [{"name": "Simran Sahni", "link": "#"}],
+      "Geography": [{"name": "Barsha Mukherjee", "link": "#"}]
+    }
+  },
+  "12": {
+    "PCM": {
+      "Physics": [{"name": "Arvind Academy", "link": "#"}, {"name": "Alakh Pandey", "link": "#"}],
+      "Chemistry": [{"name": "Bharat Panchal", "link": "#"}],
+      "Maths": [{"name": "Neha Agrawal", "link": "#"}],
+      "English": [{"name": "Shipra Mishra", "link": "#"}],
+      "Computer Science": [{"name": "Lovejeet Arora", "link": "#"}]
+    },
+    "PCB": {
+      "Physics": [{"name": "MR Sir", "link": "#"}],
+      "Chemistry": [{"name": "Pankaj Sir", "link": "#"}],
+      "Biology": [{"name": "Garima Goel", "link": "#"}],
+      "English": [{"name": "Shipra Mishra", "link": "#"}]
+    },
+    "Commerce": {
+      "Accounts": [{"name": "Rajat Arora", "link": "#"}],
+      "BST": [{"name": "Sunil Panda", "link": "#"}],
+      "Economics": [{"name": "Rishab Jolly", "link": "#"}]
+    },
+    "Humanities": {
+      "History": [{"name": "Magnet Brains", "link": "#"}],
+      "Pol Science": [{"name": "Simran Sahni", "link": "#"}],
+      "Geography": [{"name": "Human-At-Ease", "link": "#"}]
+    }
+  }
+}
