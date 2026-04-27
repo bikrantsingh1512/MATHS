@@ -296,13 +296,63 @@
         }
 
         function smartSolve() {
-            try {
-                let res = math.evaluate(document.getElementById('m-input').value);
-                const box = document.getElementById('ans-box');
-                box.classList.remove('hidden');
-                box.innerHTML = `<div class="glass p-8 rounded-[2.5rem] border-l-8 border-sky-500 animate-pop"><h2 class="text-4xl font-black">${res}</h2></div>`;
-            } catch(e) { alert("Format Error!"); }
-        }
+    const inputField = document.getElementById('m-input');
+    const ansBox = document.getElementById('ans-box');
+    const query = inputField.value.trim();
+
+    if (!query) {
+        alert("Please enter your question, Bikrant bhai!");
+        return;
+    }
+
+    // Check if it's a simple math expression (contains only numbers/math symbols)
+    const isSimpleMath = /^[\d\s\+\-\*\/\(\)\.\^sqrt|sin|cos|tan|log|pi]+$/g.test(query.toLowerCase());
+
+    if (isSimpleMath) {
+        try {
+            let result = math.evaluate(query);
+            if (typeof result === 'number') result = +result.toFixed(4);
+            
+            ansBox.classList.remove('hidden');
+            ansBox.innerHTML = `
+                <div class="glass p-8 rounded-[2.5rem] border-l-8 border-sky-500 animate-pop">
+                    <p class="text-[10px] font-bold text-sky-500 uppercase tracking-widest mb-2">Direct Solution</p>
+                    <h2 class="text-4xl font-black">${result}</h2>
+                    <p class="text-[9px] mt-4 sub-text">Solved by Nexus Local Engine</p>
+                </div>
+            `;
+            return;
+        } catch (e) { /* fallback to smart search */ }
+    }
+
+    // AGAR QUESTION ENGLISH MEIN HAI (Google Style)
+    ansBox.classList.remove('hidden');
+    ansBox.innerHTML = `
+        <div class="glass p-8 rounded-[3rem] border-l-8 border-amber-500 animate-pop space-y-4">
+            <div class="flex items-center gap-3">
+                <i data-lucide="brain-circuit" class="w-6 h-6 text-amber-500"></i>
+                <h3 class="font-bold text-sm uppercase">Nexus Smart Search</h3>
+            </div>
+            <p class="text-xs sub-text leading-relaxed">Bikrant bhai, ye complex question hai. Iska detail solution yahan dekhein:</p>
+            
+            <div class="grid grid-cols-1 gap-3">
+                <a href="https://www.google.com/search?q=${encodeURIComponent(query)}" target="_blank" 
+                   class="flex justify-between items-center bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-sky-500/20 transition-all">
+                    <span class="text-xs font-bold">Search on Google</span>
+                    <i data-lucide="external-link" class="w-4 h-4 text-sky-500"></i>
+                </a>
+                
+                <a href="https://www.wolframalpha.com/input?i=${encodeURIComponent(query)}" target="_blank" 
+                   class="flex justify-between items-center bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-orange-500/20 transition-all">
+                    <span class="text-xs font-bold">Step-by-Step (Wolfram)</span>
+                    <i data-lucide="sigma" class="w-4 h-4 text-orange-500"></i>
+                </a>
+            </div>
+        </div>
+    `;
+    lucide.createIcons();
+}
+
 
         function loadQTopics() {
             const c = document.getElementById('q-c').value;
